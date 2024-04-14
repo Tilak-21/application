@@ -40,7 +40,12 @@ p{
 }
 
 .mainimg{
-    height: 800px;
-    border-radius: 15px;
 
+    border-radius: 15px;
+    max-width: 100%; !important;
+    height: auto;
+}
+
+.secondbutton {
+    margin-bottom: 5px;
 }
