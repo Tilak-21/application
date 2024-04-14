@@ -1,8 +1,7 @@
 .navbar-brand {
-    font-family:  "Avant Garde" ;
+    font-family: "Mukta" ;
+
 }
-
-
 
 
 body {
@@ -16,19 +15,25 @@ body {
     background-color: #000053; !important;
     border-color: #1c1c84; !important;
 }
-h1, h2 {
+h1 {
     font-family: Georgia;
     font-weight: bold;
+    text-decoration: underline;
+
 }
 
-h1 {
-    text-decoration: underline;
+h3 {
+    font-family: Georgia;
+    font-weight: bold;
+
 }
 
 p{
     font-family: Candara;
     font-size: 18px;
     font-weight: bold;
+
+
 }
 
 .pquotes {
@@ -42,7 +47,7 @@ p{
 .mainimg{
 
     border-radius: 15px;
-    max-width: 100%; !important;
+    max-width: 90%; !important;
     height: auto;
 }
 
