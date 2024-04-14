@@ -1,0 +1,46 @@
+.navbar-brand {
+    font-family:  "Avant Garde" ;
+}
+
+
+
+
+body {
+    background-image: url("../images/background.png");
+    background-size: cover;
+}
+
+
+
+.btn-apply-now {
+    background-color: #000053; !important;
+    border-color: #1c1c84; !important;
+}
+h1, h2 {
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+p{
+    font-family: Candara;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pquotes {
+    text-indent: 10px;
+    font-style: italic;
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
+
+}
+
+.mainimg{
+    height: 800px;
+    border-radius: 15px;
+
+}
