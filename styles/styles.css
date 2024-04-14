@@ -18,7 +18,8 @@ body {
 h1 {
     font-family: Georgia;
     font-weight: bold;
-    text-decoration: underline;
+
+    border-bottom: 2px dotted black;
 
 }
 
