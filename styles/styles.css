@@ -47,9 +47,10 @@ p{
 
 .mainimg{
 
-    border-radius: 15px;
+    border-radius: 20px;
     max-width: 90%; !important;
     height: auto;
+    padding: 10px;
 }
 
 .secondbutton {
