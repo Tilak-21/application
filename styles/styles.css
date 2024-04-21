@@ -15,7 +15,7 @@ body {
     background-color: #000053; !important;
     border-color: #1c1c84; !important;
 }
-h1 {
+.homepagediv > div > h1 {
     font-family: Georgia;
     font-weight: bold;
 

@@ -1,0 +1,83 @@
+<include href="views/header.html"></include>
+<!--header end-->
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-xl navbar-dark bg-transparent py-4">
+    <div class="container-fluid">
+        <!-- Brand name -->
+        <a class="navbar-brand px-3 fs-1" href="home">AppTrackerHQ</a>
+    </div>
+</nav>
+<!-- Navbar End -->
+
+
+<section class="registration">
+    <div class="mask d-flex align-items-center  gradient-custom">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-9 col-xl-7">
+                    <div class="card">
+                        <div class="card-body p-4 p-md-5">
+                            <h3 class="mb-4 pb-2">Personal Info</h3>
+
+                            <form action="#" method="POST">
+
+                                <div class="row">
+                                    <div class="col-md-6 mb-4">
+                                        <div class="form-outline">
+                                            <input type="text" id="firstName" name="firstName" class="form-control" />
+                                            <label class="form-label" for="firstName">First Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <div class="form-outline">
+                                            <input type="text" name="lastName" id="lastName" class="form-control" />
+                                            <label class="form-label" for="lastName">Last Name</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6 mb-4">
+                                        <div class="form-outline">
+                                            <input type="email" name="emailAddress" id="emailAddress" class="form-control" />
+                                            <label class="form-label" for="emailAddress">Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <div class="form-outline">
+                                            <input type="tel" name="phoneNumber" id="phoneNumber" class="form-control" />
+                                            <label class="form-label" for="phoneNumber">Phone Number</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12">
+                                        <label for="state"><h6 class="mb-3">State</h6></label>
+                                        <select id="state" name="state" class="form-select">
+                                            <option value="wa">Washington</option>
+                                            <option value="or">Oregon</option>
+                                            <option value="id">Idaho</option>
+                                            <option value="ak">Alaska</option>
+                                            <option value="mt">Montana</option>
+                                        </select>
+                                        <div class="mt-4">
+                                            <input class="btn btn-warning btn-lg" type="submit" value="Next >" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+</body>
+</html>

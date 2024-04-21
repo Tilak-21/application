@@ -1,0 +1,139 @@
+[21-Apr-2024 08:02:03 UTC] Unable to open header.html
+[21-Apr-2024 08:02:03 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.16mt3q1hb61x6.php:1] Preview->render()
+[21-Apr-2024 08:02:03 UTC] [GreenRiverDev/328/application/index.php:21] Preview->render()
+[21-Apr-2024 08:02:03 UTC] [GreenRiverDev/328/application/index.php:26] Base->run()
+[21-Apr-2024 08:05:06 UTC] Unable to open header.html
+[21-Apr-2024 08:05:06 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.16mt3q1hb61x6.php:1] Preview->render()
+[21-Apr-2024 08:05:06 UTC] [GreenRiverDev/328/application/index.php:21] Preview->render()
+[21-Apr-2024 08:05:06 UTC] [GreenRiverDev/328/application/index.php:48] Base->run()
+[21-Apr-2024 08:05:08 UTC] Unable to open header.html
+[21-Apr-2024 08:05:08 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.16mt3q1hb61x6.php:1] Preview->render()
+[21-Apr-2024 08:05:08 UTC] [GreenRiverDev/328/application/index.php:21] Preview->render()
+[21-Apr-2024 08:05:08 UTC] [GreenRiverDev/328/application/index.php:48] Base->run()
+[21-Apr-2024 10:54:20 UTC] PHP Parse error:  Unclosed '{' on line 31 does not match ')' in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 53
+[21-Apr-2024 10:57:36 UTC] PHP Parse error:  syntax error, unexpected variable "$view" in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 58
+[21-Apr-2024 10:57:37 UTC] PHP Parse error:  syntax error, unexpected variable "$view" in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 58
+[21-Apr-2024 10:57:40 UTC] PHP Parse error:  syntax error, unexpected variable "$view" in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 58
+[21-Apr-2024 10:58:02 UTC] PHP Parse error:  syntax error, unexpected variable "$view" in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 58
+[21-Apr-2024 10:58:04 UTC] PHP Parse error:  syntax error, unexpected variable "$view" in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 58
+[21-Apr-2024 10:58:13 UTC] PHP Parse error:  syntax error, unexpected variable "$view" in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 58
+[21-Apr-2024 10:58:14 UTC] PHP Parse error:  syntax error, unexpected variable "$view" in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 58
+[21-Apr-2024 10:58:17 UTC] PHP Parse error:  syntax error, unexpected variable "$view" in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 58
+[21-Apr-2024 10:58:20 UTC] PHP Parse error:  syntax error, unexpected variable "$view" in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 58
+[21-Apr-2024 11:00:23 UTC] Undefined variable $POST
+[21-Apr-2024 11:00:23 UTC] [GreenRiverDev/328/application/index.php:36] 
+[21-Apr-2024 11:00:23 UTC] [GreenRiverDev/328/application/index.php:36] Base->{closure}()
+[21-Apr-2024 11:00:23 UTC] [GreenRiverDev/328/application/index.php:82] Base->run()
+[21-Apr-2024 11:01:03 UTC] Undefined variable $POST
+[21-Apr-2024 11:01:03 UTC] [GreenRiverDev/328/application/index.php:36] 
+[21-Apr-2024 11:01:03 UTC] [GreenRiverDev/328/application/index.php:36] Base->{closure}()
+[21-Apr-2024 11:01:03 UTC] [GreenRiverDev/328/application/index.php:82] Base->run()
+[21-Apr-2024 11:02:08 UTC] Undefined variable $POST
+[21-Apr-2024 11:02:08 UTC] [GreenRiverDev/328/application/index.php:36] 
+[21-Apr-2024 11:02:08 UTC] [GreenRiverDev/328/application/index.php:36] Base->{closure}()
+[21-Apr-2024 11:02:08 UTC] [GreenRiverDev/328/application/index.php:82] Base->run()
+[21-Apr-2024 11:03:00 UTC] Undefined variable $POST
+[21-Apr-2024 11:03:00 UTC] [GreenRiverDev/328/application/index.php:36] 
+[21-Apr-2024 11:03:00 UTC] [GreenRiverDev/328/application/index.php:36] Base->{closure}()
+[21-Apr-2024 11:03:00 UTC] [GreenRiverDev/328/application/index.php:82] Base->run()
+[21-Apr-2024 11:15:19 UTC] Undefined array key "firstName"
+[21-Apr-2024 11:15:19 UTC] [GreenRiverDev/328/application/index.php:43] 
+[21-Apr-2024 11:15:19 UTC] [GreenRiverDev/328/application/index.php:43] Base->{closure}()
+[21-Apr-2024 11:15:19 UTC] [GreenRiverDev/328/application/index.php:85] Base->run()
+[21-Apr-2024 11:15:30 UTC] Undefined array key "firstName"
+[21-Apr-2024 11:15:30 UTC] [GreenRiverDev/328/application/index.php:43] 
+[21-Apr-2024 11:15:30 UTC] [GreenRiverDev/328/application/index.php:43] Base->{closure}()
+[21-Apr-2024 11:15:30 UTC] [GreenRiverDev/328/application/index.php:85] Base->run()
+[21-Apr-2024 11:17:21 UTC] Undefined array key "firstName"
+[21-Apr-2024 11:17:21 UTC] [GreenRiverDev/328/application/index.php:43] 
+[21-Apr-2024 11:17:21 UTC] [GreenRiverDev/328/application/index.php:43] Base->{closure}()
+[21-Apr-2024 11:17:21 UTC] [GreenRiverDev/328/application/index.php:85] Base->run()
+[21-Apr-2024 11:19:41 UTC] Undefined array key "firstName"
+[21-Apr-2024 11:19:41 UTC] [GreenRiverDev/328/application/index.php:43] 
+[21-Apr-2024 11:19:41 UTC] [GreenRiverDev/328/application/index.php:43] Base->{closure}()
+[21-Apr-2024 11:19:41 UTC] [GreenRiverDev/328/application/index.php:85] Base->run()
+[21-Apr-2024 11:19:43 UTC] Undefined array key "firstName"
+[21-Apr-2024 11:19:43 UTC] [GreenRiverDev/328/application/index.php:43] 
+[21-Apr-2024 11:19:43 UTC] [GreenRiverDev/328/application/index.php:43] Base->{closure}()
+[21-Apr-2024 11:19:43 UTC] [GreenRiverDev/328/application/index.php:85] Base->run()
+[21-Apr-2024 11:19:44 UTC] Undefined array key "firstName"
+[21-Apr-2024 11:19:44 UTC] [GreenRiverDev/328/application/index.php:43] 
+[21-Apr-2024 11:19:44 UTC] [GreenRiverDev/328/application/index.php:43] Base->{closure}()
+[21-Apr-2024 11:19:44 UTC] [GreenRiverDev/328/application/index.php:85] Base->run()
+[21-Apr-2024 11:24:36 UTC] Undefined array key "firstName"
+[21-Apr-2024 11:24:36 UTC] [GreenRiverDev/328/application/index.php:42] 
+[21-Apr-2024 11:24:36 UTC] [GreenRiverDev/328/application/index.php:42] Base->{closure}()
+[21-Apr-2024 11:24:36 UTC] [GreenRiverDev/328/application/index.php:85] Base->run()
+[21-Apr-2024 11:24:37 UTC] Undefined array key "firstName"
+[21-Apr-2024 11:24:37 UTC] [GreenRiverDev/328/application/index.php:42] 
+[21-Apr-2024 11:24:37 UTC] [GreenRiverDev/328/application/index.php:42] Base->{closure}()
+[21-Apr-2024 11:24:37 UTC] [GreenRiverDev/328/application/index.php:85] Base->run()
+[21-Apr-2024 11:24:39 UTC] Undefined array key "firstName"
+[21-Apr-2024 11:24:39 UTC] [GreenRiverDev/328/application/index.php:42] 
+[21-Apr-2024 11:24:39 UTC] [GreenRiverDev/328/application/index.php:42] Base->{closure}()
+[21-Apr-2024 11:24:39 UTC] [GreenRiverDev/328/application/index.php:85] Base->run()
+[21-Apr-2024 11:24:40 UTC] Undefined array key "firstName"
+[21-Apr-2024 11:24:40 UTC] [GreenRiverDev/328/application/index.php:42] 
+[21-Apr-2024 11:24:40 UTC] [GreenRiverDev/328/application/index.php:42] Base->{closure}()
+[21-Apr-2024 11:24:40 UTC] [GreenRiverDev/328/application/index.php:85] Base->run()
+[21-Apr-2024 11:24:48 UTC] Undefined array key "lastName"
+[21-Apr-2024 11:24:48 UTC] [GreenRiverDev/328/application/index.php:43] 
+[21-Apr-2024 11:24:48 UTC] [GreenRiverDev/328/application/index.php:43] Base->{closure}()
+[21-Apr-2024 11:24:48 UTC] [GreenRiverDev/328/application/index.php:85] Base->run()
+[21-Apr-2024 11:33:10 UTC] Undefined array key "firstName"
+[21-Apr-2024 11:33:10 UTC] [GreenRiverDev/328/application/index.php:40] 
+[21-Apr-2024 11:33:10 UTC] [GreenRiverDev/328/application/index.php:40] Base->{closure}()
+[21-Apr-2024 11:33:10 UTC] [GreenRiverDev/328/application/index.php:87] Base->run()
+[21-Apr-2024 11:33:12 UTC] Undefined array key "firstName"
+[21-Apr-2024 11:33:12 UTC] [GreenRiverDev/328/application/index.php:40] 
+[21-Apr-2024 11:33:12 UTC] [GreenRiverDev/328/application/index.php:40] Base->{closure}()
+[21-Apr-2024 11:33:12 UTC] [GreenRiverDev/328/application/index.php:87] Base->run()
+[21-Apr-2024 11:33:13 UTC] Undefined array key "firstName"
+[21-Apr-2024 11:33:13 UTC] [GreenRiverDev/328/application/index.php:40] 
+[21-Apr-2024 11:33:13 UTC] [GreenRiverDev/328/application/index.php:40] Base->{closure}()
+[21-Apr-2024 11:33:13 UTC] [GreenRiverDev/328/application/index.php:87] Base->run()
+[21-Apr-2024 11:33:19 UTC] Undefined array key "firstName"
+[21-Apr-2024 11:33:19 UTC] [GreenRiverDev/328/application/index.php:40] 
+[21-Apr-2024 11:33:19 UTC] [GreenRiverDev/328/application/index.php:40] Base->{closure}()
+[21-Apr-2024 11:33:19 UTC] [GreenRiverDev/328/application/index.php:87] Base->run()
+[21-Apr-2024 11:33:32 UTC] Undefined array key "firstName"
+[21-Apr-2024 11:33:32 UTC] [GreenRiverDev/328/application/index.php:40] 
+[21-Apr-2024 11:33:32 UTC] [GreenRiverDev/328/application/index.php:40] Base->{closure}()
+[21-Apr-2024 11:33:32 UTC] [GreenRiverDev/328/application/index.php:87] Base->run()
+[21-Apr-2024 11:34:48 UTC] Undefined array key "firstName"
+[21-Apr-2024 11:34:48 UTC] [GreenRiverDev/328/application/index.php:40] 
+[21-Apr-2024 11:34:48 UTC] [GreenRiverDev/328/application/index.php:40] Base->{closure}()
+[21-Apr-2024 11:34:48 UTC] [GreenRiverDev/328/application/index.php:87] Base->run()
+[21-Apr-2024 11:35:56 UTC] Undefined array key "firstName"
+[21-Apr-2024 11:35:56 UTC] [GreenRiverDev/328/application/index.php:40] 
+[21-Apr-2024 11:35:56 UTC] [GreenRiverDev/328/application/index.php:40] Base->{closure}()
+[21-Apr-2024 11:35:56 UTC] [GreenRiverDev/328/application/index.php:89] Base->run()
+[21-Apr-2024 11:36:06 UTC] Undefined array key "firstName"
+[21-Apr-2024 11:36:06 UTC] [GreenRiverDev/328/application/index.php:40] 
+[21-Apr-2024 11:36:06 UTC] [GreenRiverDev/328/application/index.php:40] Base->{closure}()
+[21-Apr-2024 11:36:06 UTC] [GreenRiverDev/328/application/index.php:89] Base->run()
+[21-Apr-2024 11:36:19 UTC] Undefined array key "firstName"
+[21-Apr-2024 11:36:19 UTC] [GreenRiverDev/328/application/index.php:40] 
+[21-Apr-2024 11:36:19 UTC] [GreenRiverDev/328/application/index.php:40] Base->{closure}()
+[21-Apr-2024 11:36:19 UTC] [GreenRiverDev/328/application/index.php:89] Base->run()
+[21-Apr-2024 11:37:49 UTC] Undefined array key "firstName"
+[21-Apr-2024 11:37:49 UTC] [GreenRiverDev/328/application/index.php:40] 
+[21-Apr-2024 11:37:49 UTC] [GreenRiverDev/328/application/index.php:40] Base->{closure}()
+[21-Apr-2024 11:37:49 UTC] [GreenRiverDev/328/application/index.php:89] Base->run()
+[21-Apr-2024 12:13:34 UTC] post /GreenRiverDev/328/application/openings
+[21-Apr-2024 12:13:34 UTC] [GreenRiverDev/328/application/index.php:150] Base->route()
+[21-Apr-2024 12:13:36 UTC] post /GreenRiverDev/328/application/openings
+[21-Apr-2024 12:13:36 UTC] [GreenRiverDev/328/application/index.php:150] Base->route()
+[21-Apr-2024 12:13:42 UTC] post /GreenRiverDev/328/application/experience
+[21-Apr-2024 12:13:42 UTC] [GreenRiverDev/328/application/index.php:150] Base->route()
+[21-Apr-2024 12:14:39 UTC] Unable to open views/summary.html
+[21-Apr-2024 12:14:39 UTC] [GreenRiverDev/328/application/index.php:148] Preview->render()
+[21-Apr-2024 12:14:39 UTC] [GreenRiverDev/328/application/index.php:154] Base->run()
+[21-Apr-2024 12:17:38 UTC] Undefined constant "SESSION" [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:28]
+[21-Apr-2024 12:17:38 UTC] [GreenRiverDev/328/application/index.php:148] Preview->render()
+[21-Apr-2024 12:17:38 UTC] [GreenRiverDev/328/application/index.php:154] Base->run()
+[21-Apr-2024 12:19:18 UTC] Undefined array key "lastname"
+[21-Apr-2024 12:19:18 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[21-Apr-2024 12:19:18 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[21-Apr-2024 12:19:18 UTC] [GreenRiverDev/328/application/index.php:148] Preview->render()
+[21-Apr-2024 12:19:18 UTC] [GreenRiverDev/328/application/index.php:154] Base->run()

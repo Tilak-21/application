@@ -1,0 +1,90 @@
+<include href="views/header.html"></include>
+<!--header end-->
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-xl navbar-dark bg-transparent py-4">
+    <div class="container-fluid">
+        <!-- Brand name -->
+        <a class="navbar-brand px-3 fs-1" href="home">AppTrackerHQ</a>
+    </div>
+</nav>
+<!-- Navbar End -->
+
+
+<section class="registration">
+    <div class="mask d-flex align-items-center  gradient-custom">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-9 col-xl-7">
+                    <div class="card">
+                        <div class="card-body p-4 p-md-5">
+                            <h3 class="mb-4 pb-2">Experience</h3>
+
+                            <form action="#" method="POST">
+
+                                <div class="row">
+                                    <div class="col-12 mb-4">
+                                        <div class="form-outline">
+                                            <textarea id="biography" name="biography" class="form-control" rows="5"></textarea>
+                                            <label class="form-label" for="biography">Biography</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mb-4">
+                                        <div class="form-outline">
+                                            <input type="url" name="githubLink" id="githubLink" class="form-control" />
+                                            <label class="form-label" for="githubLink">GitHub Link</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mb-4">
+                                        <h6 class="mb-3">Years of Experience</h6>
+                                        <div>
+                                            <input type="radio" id="exp0" name="experience" value="0">
+                                            <label for="exp0">0-2 years</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="exp2" name="experience" value="2">
+                                            <label for="exp2">2-5 years</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="exp5" name="experience" value="5">
+                                            <label for="exp5">5-10 years</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="exp10" name="experience" value="10">
+                                            <label for="exp10">10+ years</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mb-4">
+                                        <h6 class="mb-3">Willing to Relocate</h6>
+                                        <div>
+                                            <input type="radio" id="yes" name="relocate" value="yes">
+                                            <label for="yes">Yes</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="no" name="relocate" value="no">
+                                            <label for="no">No</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="mt-4">
+                                            <input class="btn btn-warning btn-lg" type="submit" value="Next >" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+</body>
+</html>
