@@ -137,3 +137,7 @@
 [21-Apr-2024 12:19:18 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
 [21-Apr-2024 12:19:18 UTC] [GreenRiverDev/328/application/index.php:148] Preview->render()
 [21-Apr-2024 12:19:18 UTC] [GreenRiverDev/328/application/index.php:154] Base->run()
+[21-Apr-2024 12:29:55 UTC] Undefined array key "experience"
+[21-Apr-2024 12:29:55 UTC] [GreenRiverDev/328/application/index.php:83] 
+[21-Apr-2024 12:29:55 UTC] [GreenRiverDev/328/application/index.php:83] Base->{closure}()
+[21-Apr-2024 12:29:55 UTC] [GreenRiverDev/328/application/index.php:154] Base->run()

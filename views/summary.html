@@ -55,7 +55,7 @@
                                         <strong>GithubLink:</strong> {{ @SESSION.githubLink }}
                                     </div>
                                     <div class="col-md-6">
-                                        <strong>Experience:</strong> {{ @SESSION.experience }}
+                                        <strong>Experience:</strong> {{ @SESSION.experience }} <p> years</p>
                                     </div>
                                     <div class="col-md-6">
                                         <strong>Willing to Relocate:</strong> {{ @SESSION.relocate }}
@@ -68,10 +68,10 @@
                                 <h5 class="mb-3">Mailing List Selected</h5>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <strong>Software Development Jobs:</strong> <!-- Display selected programming languages here -->
+                                        <strong>Software Development Jobs:</strong> {{ implode(', ', @SESSION.languages) }}
                                     </div>
                                     <div class="col-md-6">
-                                        <strong>Industry Verticals:</strong> <!-- Display selected industry verticals here -->
+                                        <strong>Industry Verticals:</strong> {{ implode(', ', @SESSION.verticals) }}
                                     </div>
                                 </div>
                             </div>
