@@ -1,12 +1,10 @@
-
-
-<!--    author: Tilak K Chudasama-->
-<!--    file name: index.php -->
-<!--    file description: This is the controller file -->
-
-
 <?php
 session_start();
+//    author: Tilak K Chudasama
+//    file name: index.php
+//    file description: This is the controller file
+
+
 //This is my CONTROLLER!
 
 
