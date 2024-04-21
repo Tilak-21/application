@@ -57,7 +57,7 @@ $f3->route('GET|POST /personalInfo', function($f3) {
             // Redirect to the next page
             $f3->reroute("/experience");
         }
-        else{
+        else {
             echo "<div class='text-center'>Please complete the form in its entirety</div>";
         }
 
@@ -85,8 +85,6 @@ $f3->route('GET|POST /experience', function($f3) {
             $relocate = $_POST['relocate'];
 
 
-
-
             // Add to session array
             $f3->set('SESSION.biography', $biography);
             $f3->set('SESSION.githubLink', $githubLink);
@@ -97,7 +95,7 @@ $f3->route('GET|POST /experience', function($f3) {
             // Redirect to the next page
             $f3->reroute("/openings");
         }
-        else{
+        else {
             echo "<div class='text-center'>Please complete the form in its entirety</div>";
         }
 
