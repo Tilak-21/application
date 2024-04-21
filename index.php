@@ -1,3 +1,10 @@
+
+
+<!--    author: Tilak K Chudasama-->
+<!--    file name: index.php -->
+<!--    file description: This is the controller file -->
+
+
 <?php
 session_start();
 //This is my CONTROLLER!
@@ -21,6 +28,7 @@ $f3->route('GET /', function() {
 
 });
 
+//route to home page when we click the website logo in navbar
 $f3->route('GET /home', function() {
 
     $view = new Template();
@@ -28,6 +36,7 @@ $f3->route('GET /home', function() {
 
 });
 
+//personalInfo page routing with validation
 $f3->route('GET|POST /personalInfo', function($f3) {
 
     if($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -43,8 +52,6 @@ $f3->route('GET|POST /personalInfo', function($f3) {
             $emailAddress = $_POST['emailAddress'];
             $phoneNumber = $_POST['phoneNumber'];
             $state = $_POST['state'];
-
-
 
 
             // Add to session array
@@ -69,7 +76,7 @@ $f3->route('GET|POST /personalInfo', function($f3) {
 });
 
 
-
+//experience page routing with validation
 $f3->route('GET|POST /experience', function($f3) {
 
     if($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -106,6 +113,7 @@ $f3->route('GET|POST /experience', function($f3) {
 
 });
 
+//openings page routing with validation
 $f3->route('GET|POST /openings', function($f3) {
 
     if($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -140,6 +148,7 @@ $f3->route('GET|POST /openings', function($f3) {
 
 });
 
+//summary page routing
 $f3->route('GET|POST /summary', function() {
 
     $view = new Template();
