@@ -31,20 +31,21 @@ $f3->route('GET /home', function() {
 $f3->route('GET|POST /personalInfo', function($f3) {
 
     if($_SERVER['REQUEST_METHOD'] == 'POST') {
-        var_dump($_POST);
+
+
         // Check if any field is empty
-        if (isset($_POST['firstName']) || isset($_POST['phoneNumber']) || isset($_POST['lastName']) || isset($_POST['emailAddress']) || isset($_POST['state'])) {
+        if (!empty($_POST['firstName']) && !empty($_POST['phoneNumber']) && !empty($_POST['lastName']) && !empty($_POST['emailAddress']) && !empty($_POST['state'])) {
 
 
-
-            // Assign variables from POST data
+        // Assign variables from POST data
             $firstName = $_POST['firstName'];
             $lastName = $_POST['lastName'];
             $emailAddress = $_POST['emailAddress'];
             $phoneNumber = $_POST['phoneNumber'];
             $state = $_POST['state'];
 
-            var_dump($_POST);
+
+
 
             // Add to session array
             $f3->set('SESSION.firstName', $firstName);
@@ -72,12 +73,12 @@ $f3->route('GET|POST /personalInfo', function($f3) {
 $f3->route('GET|POST /experience', function($f3) {
 
     if($_SERVER['REQUEST_METHOD'] == 'POST') {
-        var_dump($_POST);
+
         // Check if any field is empty
-        if (isset($_POST['biography']) || isset($_POST['githubLink']) || isset($_POST['experience']) || isset($_POST['relocate'])) {
+        if (!empty($_POST['biography']) && !empty($_POST['githubLink']) && !empty($_POST['experience']) && !empty($_POST['relocate'])) {
 
 
-            // Assign variables from POST data
+        // Assign variables from POST data
             $biography= $_POST['biography'];
             $githubLink = $_POST['githubLink'];
             $experience = $_POST['experience'];
@@ -110,12 +111,11 @@ $f3->route('GET|POST /experience', function($f3) {
 $f3->route('GET|POST /openings', function($f3) {
 
     if($_SERVER['REQUEST_METHOD'] == 'POST') {
-        var_dump($_POST);
+
         // Check if any field is empty
-        if (isset($_POST['languages']) || isset($_POST['verticals'])) {
+        if (!empty($_POST['languages']) && !empty($_POST['verticals'])) {
 
-
-            // Assign variables from POST data
+        // Assign variables from POST data
             $languages= $_POST['languages'];
             $verticals = $_POST['verticals'];
 
