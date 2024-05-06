@@ -31,27 +31,23 @@
                                 <div class="row">
                                     <div class="col-12 mb-4">
                                         <h6 class="mb-3">Software Development Jobs</h6>
-                                        <repeat group="{{ @mailingList }}" value="{{ @job }}">
-                                            <input type="checkbox" id="{{ @job }}" name="listLang[]" value="{{ @job }}">
-                                            <label for="{{ @job }}">{{ ucfirst(@job) }}</label><br>
+                                        <repeat group="{{ @mailingList }}" value="{{ @mailingLists }}">
+                                            <input type="checkbox" id="{{ @mailingLists }}" name="listLang[]" value="{{ @mailingLists }}">
+                                            <label for="{{ @mailingLists }}">{{ ucfirst(@mailingLists) }}</label><br>
                                         </repeat>
                                         <check if="{{ isset(@errors['languages']) }}">
                                             <span class="err">{{ @errors['languages'] }}</span>
                                         </check>
-
-
-
                                     </div>
                                     <div class="col-12 mb-4">
                                         <h6 class="mb-3">Industry Verticals</h6>
-                                        <repeat group="{{ @mailingListVerticals }}" value="{{ @vertical }}">
-                                            <input type="checkbox" id="{{ @vertical }}" name="listVerticals[]" value="{{ @vertical }}">
-                                            <label for="{{ @vertical }}">{{ ucfirst(@vertical) }}</label><br>
+                                        <repeat group="{{ @mailingListVerticals }}" value="{{ @mailingListVerticalss }}">
+                                            <input type="checkbox" id="{{ @mailingListVerticalss }}" name="listVerticals[]" value="{{ @mailingListVerticalss }}">
+                                            <label for="{{ @mailingListVerticalss }}">{{ ucfirst(@mailingListVerticalss) }}</label><br>
                                         </repeat>
                                         <check if="{{ isset(@errors['verticals']) }}">
                                             <span class="err">{{ @errors['verticals'] }}</span>
                                         </check>
-
                                     </div>
                                 </div>
 

@@ -165,50 +165,44 @@ $f3->route('GET|POST /openings', function($f3) {
 
     if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
-
-            // Add to session array
-        if(isset($_POST['listLang']) && isset($_POST['listVerticals'])) {
+        // Add to session array
+        if(!empty($_POST['listLang']) && !empty($_POST['listVerticals'])) {
             // Assign variables from POST data
             $listLang = $_POST['listLang'];
             $listVerticals = $_POST['listVerticals'];
 
+            // Check if the selected values are valid
             if (validMailingJobs($listLang)) {
-                $f3->set('SESSION.languages', $listLang);
+                $f3->set('SESSION.language', $listLang);
             } else {
                 $f3->set('errors["languages"]', 'Please select a valid job mailing option');
             }
 
             if (validMailingJobs($listVerticals)) {
-                $f3->set('SESSION.verticals', $listVerticals);
+                $f3->set('SESSION.vertical', $listVerticals);
             } else {
                 $f3->set('errors["verticals"]', 'Please select a valid vertical mailing option');
             }
 
-
-
+        }
+        else {
+            // When no options are selected, set it as an empty array
+            $emptyVariable = array();
+            $f3->set('SESSION.language', $emptyVariable);
+            $f3->set('SESSION.vertical', $emptyVariable);
 
         }
-        else{
-            $EmptyVariable = array("");
-            // When no options are selected, it will set it as empty string.
-            $f3->set('SESSION.languages', $EmptyVariable);
-            $f3->set('SESSION.verticals', $EmptyVariable);
-        }
 
-            // Redirect to the next page
-            $f3->reroute("/summary");
-
+        // Redirect to the next page
+        $f3->reroute("/summary");
     }
 
-
-
+    //Using GET response to display the page.
     $mailingList = getJobs();
     $f3->set('mailingList', $mailingList);
 
     $mailingListVerticals = getMailingList();
     $f3->set('mailingListVerticals', $mailingListVerticals);
-
-
 
     $view = new Template();
     echo $view->render('views/jobOpenings.html');
