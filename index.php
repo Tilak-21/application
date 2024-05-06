@@ -127,10 +127,11 @@ $f3->route('GET|POST /experience', function($f3) {
                 $f3->set('errors["experience"]', 'Please select a valid option.');
             }
 
-            if (validExperience($githubLink)) {
+
+            if (validGithub($githubLink)) {
                 $f3->set('SESSION.githubLink', $githubLink);
             } else {
-                $f3->set('errors["githubLink"]', 'Please select valid URL');
+                $f3->set('errors["githubLink"]', 'Please enter a valid GitHub URL');
             }
 
             $f3->set('SESSION.biography', $biography);

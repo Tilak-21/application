@@ -6,7 +6,9 @@ function validName($StringName) {
 }
 
 function validGithub($url) {
-    return strpos($url, 'https://github.com/') === 0;
+
+
+    return filter_var($url, FILTER_VALIDATE_URL);
 }
 
 //This will validate if the years of experience value is matching the array which defined it.
