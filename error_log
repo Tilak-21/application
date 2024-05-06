@@ -680,3 +680,7 @@
 [06-May-2024 05:08:41 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:84] Base->{closure}()
 [06-May-2024 05:08:41 UTC] [GreenRiverDev/328/application/index.php:221] Preview->render()
 [06-May-2024 05:08:41 UTC] [GreenRiverDev/328/application/index.php:227] Base->run()
+[06-May-2024 05:10:49 UTC] implode(): Argument #2 ($array) must be of type ?array, string given [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:84]
+[06-May-2024 05:10:49 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:84] implode()
+[06-May-2024 05:10:49 UTC] [GreenRiverDev/328/application/index.php:221] Preview->render()
+[06-May-2024 05:10:49 UTC] [GreenRiverDev/328/application/index.php:227] Base->run()

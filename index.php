@@ -189,9 +189,10 @@ $f3->route('GET|POST /openings', function($f3) {
 
         }
         else{
+            $EmptyVariable = array("");
             // When no options are selected, it will set it as empty string.
-            $f3->set('SESSION.languages', " ");
-            $f3->set('SESSION.verticals', " ");
+            $f3->set('SESSION.languages', $EmptyVariable);
+            $f3->set('SESSION.verticals', $EmptyVariable);
         }
 
             // Redirect to the next page
