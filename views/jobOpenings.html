@@ -35,6 +35,9 @@
                                             <input type="checkbox" id="{{ @job }}" name="listLang[]" value="{{ @job }}">
                                             <label for="{{ @job }}">{{ ucfirst(@job) }}</label><br>
                                         </repeat>
+                                        <check if="{{ isset(@errors['languages']) }}">
+                                            <span class="err">{{ @errors['languages'] }}</span>
+                                        </check>
 
 
 
@@ -45,6 +48,9 @@
                                             <input type="checkbox" id="{{ @vertical }}" name="listVerticals[]" value="{{ @vertical }}">
                                             <label for="{{ @vertical }}">{{ ucfirst(@vertical) }}</label><br>
                                         </repeat>
+                                        <check if="{{ isset(@errors['verticals']) }}">
+                                            <span class="err">{{ @errors['verticals'] }}</span>
+                                        </check>
 
                                     </div>
                                 </div>

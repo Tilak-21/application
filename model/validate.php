@@ -26,3 +26,11 @@ function validPhone($phoneNum) {
 function validEmail($email) {
     return filter_var($email, FILTER_VALIDATE_EMAIL);
 }
+
+function validMailingJobs($mailingjob) {
+    return array_search($mailingjob, getJobs()) || $mailingjob == "";
+}
+
+function validMailingVerticals($mailingVerticals) {
+    return array_search($mailingVerticals, getMailingList()) || $mailingVerticals == "";
+}

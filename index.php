@@ -172,12 +172,26 @@ $f3->route('GET|POST /openings', function($f3) {
             $listLang = $_POST['listLang'];
             $listVerticals = $_POST['listVerticals'];
 
-            $f3->set('SESSION.languages', $listLang);
-            $f3->set('SESSION.verticals', $listVerticals);
+            if (validMailingJobs($listLang)) {
+                $f3->set('SESSION.languages', $listLang);
+            } else {
+                $f3->set('errors["languages"]', 'Please select a valid job mailing option');
+            }
+
+            if (validMailingJobs($listVerticals)) {
+                $f3->set('SESSION.verticals', $listVerticals);
+            } else {
+                $f3->set('errors["verticals"]', 'Please select a valid vertical mailing option');
+            }
+
+
+
+
         }
         else{
-            // Unset session variables if option are not selected
-            $f3->clear('SESSION');
+            // When no options are selected, it will set it as empty string.
+            $f3->set('SESSION.languages', " ");
+            $f3->set('SESSION.verticals', " ");
         }
 
             // Redirect to the next page
