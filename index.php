@@ -112,7 +112,7 @@ $f3->route('GET|POST /experience', function($f3) {
             $experience = implode(", ", $_POST['experience']);
 
             if(empty($_POST['relocate'])) {
-                $relocate = "Yes";
+                $relocate = "No";
 
             }
             else {
@@ -166,16 +166,8 @@ $f3->route('GET|POST /openings', function($f3) {
     if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 
-
-
-
-
-
-
-
-
             // Add to session array
-        if(isset($_POST['listLang']) && isset($_POST['listVerticals']) ) {
+        if(isset($_POST['listLang']) && isset($_POST['listVerticals'])) {
             // Assign variables from POST data
             $listLang = $_POST['listLang'];
             $listVerticals = $_POST['listVerticals'];
@@ -183,12 +175,13 @@ $f3->route('GET|POST /openings', function($f3) {
             $f3->set('SESSION.languages', $listLang);
             $f3->set('SESSION.verticals', $listVerticals);
         }
-
-
+        else{
+            // Unset session variables if option are not selected
+            $f3->clear('SESSION');
+        }
 
             // Redirect to the next page
             $f3->reroute("/summary");
-
 
     }
 
