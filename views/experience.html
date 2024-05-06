@@ -23,7 +23,8 @@
                 <div class="col-12  col-lg-9 col-xl-7">
                     <div class="card">
                         <div class="card-body p-4 p-md-5">
-                            <h3 class="mb-4 pb-2">Experience</h3>
+                            <h3>Experience</h3>
+                            <p class="mb-4 pb-2 reqStatement">"*" Fields are Required.</p>
 
                             <form action="#" method="POST">
 
@@ -36,28 +37,23 @@
                                     </div>
                                     <div class="col-12 mb-4">
                                         <div class="form-outline">
-                                            <input type="url" name="githubLink" id="githubLink" class="form-control" value="https://"/>
+                                            <input type="text" name="githubLink" id="githubLink" class="form-control" value="https://www.github.com/" placeholder="https://www.github.com/ENTER USERNAME">
                                             <label class="form-label" for="githubLink">GitHub Link (Use 'https://')</label>
+                                            <check if="{{ isset(@errors['githubLink']) }}">
+                                                <span class="err">{{ @errors['githubLink'] }}</span>
+                                            </check>
                                         </div>
                                     </div>
                                     <div class="col-12 mb-4">
-                                        <h6 class="mb-3">Years of Experience</h6>
-                                        <div>
-                                            <input type="radio" id="experience" name="experience" value="0">
-                                            <label for="experience">0-2 years</label>
-                                        </div>
-                                        <div>
-                                            <input type="radio" id="exp2" name="experience" value="2">
-                                            <label for="exp2">2-5 years</label>
-                                        </div>
-                                        <div>
-                                            <input type="radio" id="exp5" name="experience" value="5">
-                                            <label for="exp5">5-10 years</label>
-                                        </div>
-                                        <div>
-                                            <input type="radio" id="exp10" name="experience" value="10">
-                                            <label for="exp10">10+ years</label>
-                                        </div>
+                                        <h6 class=" required mb-3">Years of Experience</h6>
+                                        <repeat group="{{@experiences}}" value="{{@experiences}}">
+                                                <label><input type="radio" name="experience[]" value="{{ @experiences }}"> {{ ucfirst(@experiences) }}</label><br>
+                                        </repeat>
+                                        <check if="{{ isset(@errors['experience']) }}">
+                                            <span class="err">{{ @errors['experience'] }}</span>
+                                        </check>
+
+
                                     </div>
                                     <div class="col-12 mb-4">
                                         <h6 class="mb-3">Willing to Relocate</h6>

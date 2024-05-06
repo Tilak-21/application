@@ -56,3 +56,21 @@ p{
 .secondbutton {
     margin-bottom: 5px;
 }
+
+.required::after {
+    content: "*";
+    color: red;
+    margin-left: 5px;
+}
+
+.reqStatement {
+    text-decoration: gray;
+    color: red;
+    font-style: italic;
+    font-size: smaller;
+}
+
+.err {
+    color: red;
+    font-style: italic;
+}

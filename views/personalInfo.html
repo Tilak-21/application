@@ -23,7 +23,8 @@
                 <div class="col-12 col-lg-9 col-xl-7">
                     <div class="card">
                         <div class="card-body p-4 p-md-5">
-                            <h3 class="mb-4 pb-2">Personal Info</h3>
+                            <h3>Personal Info</h3>
+                            <p class="mb-4 pb-2 reqStatement">"*" Fields are Required.</p>
 
                             <form action="#" method="POST">
 
@@ -31,13 +32,19 @@
                                     <div class="col-md-6 mb-4">
                                         <div class="form-outline">
                                             <input type="text" id="firstName" name="firstName" class="form-control" />
-                                            <label class="form-label" for="firstName">First Name</label>
+                                            <label class="required form-label" for="firstName">First Name</label>
+                                            <check if="{{ isset(@errors['firstName']) }}">
+                                                <span class="err">{{ @errors['firstName'] }}</span>
+                                            </check>
                                         </div>
                                     </div>
                                     <div class="col-md-6 mb-4">
                                         <div class="form-outline">
                                             <input type="text" name="lastName" id="lastName" class="form-control" />
-                                            <label class="form-label" for="lastName">Last Name</label>
+                                            <label class="required form-label" for="lastName">Last Name</label>
+                                            <check if="{{ isset(@errors['lastName']) }}">
+                                                <span class="err">{{ @errors['lastName'] }}</span>
+                                            </check>
                                         </div>
                                     </div>
                                 </div>
@@ -45,14 +52,20 @@
                                 <div class="row">
                                     <div class="col-md-6 mb-4">
                                         <div class="form-outline">
-                                            <input type="email" name="emailAddress" id="emailAddress" class="form-control" />
-                                            <label class="form-label" for="emailAddress">Email</label>
+                                            <input type="text" name="emailAddress" id="emailAddress" class="form-control" />
+                                            <label class="required form-label" for="emailAddress">Email</label>
+                                            <check if="{{ isset(@errors['emailAddress']) }}">
+                                                <span class="err">{{ @errors['emailAddress'] }}</span>
+                                            </check>
                                         </div>
                                     </div>
                                     <div class="col-md-6 mb-4">
                                         <div class="form-outline">
                                             <input type="tel" name="phoneNumber" id="phoneNumber" class="form-control" />
-                                            <label class="form-label" for="phoneNumber">Phone Number</label>
+                                            <label class="required form-label" for="phoneNumber">Phone Number</label>
+                                            <check if="{{ isset(@errors['phoneNumber']) }}">
+                                                <span class="err">{{ @errors['phoneNumber'] }}</span>
+                                            </check>
                                         </div>
                                     </div>
                                 </div>
@@ -67,6 +80,9 @@
                                             <option value="ak">Alaska</option>
                                             <option value="mt">Montana</option>
                                         </select>
+                                        <check if="{{ isset(@errors['state']) }}">
+                                            <span class="err">{{ @errors['state'] }}</span>
+                                        </check>
                                         <div class="mt-4">
                                             <input class="btn btn-info btn-lg" type="submit" value="Next >" />
                                         </div>
