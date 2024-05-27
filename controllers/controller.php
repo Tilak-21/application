@@ -1,22 +1,44 @@
 <?php
+
 require_once ('model/data-layer.php');
 require_once ('model/validate.php');
+require_once ('classes/Applicant.php');
+require_once ('classes/Applicant_SubscribedToLists.php');
 
+/**
+ * Controller Class
+ *
+ * This class handles the control flow of the application.
+ */
 class controller
 {
+    /** @var object The instance of the Fat-Free Framework */
     private $_f3;
 
+    /**
+     * Controller constructor.
+     *
+     * @param object $f3 The instance of the Fat-Free Framework
+     */
     function __construct($f3)
     {
         $this->_f3 = $f3;
     }
-
+    /**
+     * Home Page
+     *
+     * Renders the home page.
+     */
     function home()
     {
         $view = new Template();
         echo $view->render('views/home.html');
     }
-
+    /**
+     * Personal Information Page
+     *
+     * Handles the personal information form submission.
+     */
     function personalInfo()
     {
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -58,6 +80,15 @@ class controller
                     $this->_f3->set('errors["phoneNumber"]', 'Please enter a valid phone number');
                 }
 
+                if (validName($firstName) && validName($lastName) && validEmail($emailAddress) && validPhone($phoneNumber)) {
+                    if ($mailingCheckbox) {
+                        $applicant = new Applicant_SubscribedToLists($firstName, $lastName, $emailAddress, $state, $phoneNumber);
+                    } else {
+                        $applicant = new Applicant($firstName, $lastName, $emailAddress, $state, $phoneNumber);
+                    }
+                    $this->_f3->set('SESSION.applicant', $applicant);
+                }
+
                 $this->_f3->set('SESSION.Mailing', $mailingCheckbox);
 
                 // Add state to session array
@@ -75,11 +106,15 @@ class controller
         $view = new Template();
         echo $view->render('views/personalInfo.html');
     }
-
+    /**
+     * Experience Page
+     *
+     * Handles the experience form submission.
+     */
     function experience()
     {
 
-        if($_SERVER['REQUEST_METHOD'] == 'POST') {
+        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
             // Check if any field is empty
             if (!empty($_POST['experience'])) {
@@ -102,7 +137,7 @@ class controller
                 // Add to session array
 
                 if (validExperience($experience)) {
-                    $this->_f3->set('SESSION.experience', $experience);;
+                    $this->_f3->set('SESSION.experience', $experience);
                 } else {
                     $this->_f3->set('errors["experience"]', 'Please select a valid option.');
                 }
@@ -118,6 +153,24 @@ class controller
 
 
                 $this->_f3->set('SESSION.relocate', $relocate);
+
+
+                $applicant = new Applicant(
+                    $this->_f3->get('SESSION.firstName'),
+                    $this->_f3->get('SESSION.lastName'),
+                    $this->_f3->get('SESSION.emailAddress'),
+                    $this->_f3->get('SESSION.state'),
+                    $this->_f3->get('SESSION.phoneNumber')
+                );
+
+                // Set experience-related fields using setter methods
+                $applicant->setGithub($githubLink);
+                $applicant->setExperience($experience);
+                $applicant->setBio($biography);
+                $applicant->setRelocate($relocate);
+
+                // Set the updated Applicant object in the session
+                $this->_f3->set('SESSION.applicant', $applicant);
 
 
                 if (empty($this->_f3->get('errors')) && !$this->_f3->get('SESSION.Mailing')) {
@@ -136,9 +189,12 @@ class controller
         $view = new Template();
         echo $view->render('views/experience.html');
 
-
     }
-
+    /**
+     * Openings Page
+     *
+     * Handles the job openings form submission.
+     */
     function openings()
     {
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -159,30 +215,54 @@ class controller
                 $this->_f3->set('errors["verticals"]', 'Please select a valid vertical mailing option');
             }
 
-            // Redirect to the next page if no errors
+            // Create an instance of Applicant_SubscribedToLists class
+            $applicant = new Applicant_SubscribedToLists(
+                $this->_f3->get('SESSION.firstName'),
+                $this->_f3->get('SESSION.lastName'),
+                $this->_f3->get('SESSION.emailAddress'),
+                $this->_f3->get('SESSION.state'),
+                $this->_f3->get('SESSION.phoneNumber')
+            );
+
+            // Set job openings-related fields using setter methods
+            $applicant->setSelectionsJobs($listLang);
+            $applicant->setSelectionsVerticals($listVerticals);
+
+            // Set the updated Applicant_SubscribedToLists object in the session
+            $this->_f3->set('SESSION.applicant', $applicant);
+
             if (empty($this->_f3->get('errors'))) {
                 $this->_f3->reroute('/summary');
             } else {
                 echo "<div class='text-center'>Please correct the errors in the form</div>";
             }
+
+
+            // Using GET response to display the page.
+            $mailingList = getJobs();
+            $this->_f3->set('mailingList', $mailingList);
+
+            $mailingListVerticals = getMailingList();
+            $this->_f3->set('mailingListVerticals', $mailingListVerticals);
+
+            $view = new Template();
+            echo $view->render('views/jobOpenings.html');
         }
-
-        // Using GET response to display the page.
-        $mailingList = getJobs();
-        $this->_f3->set('mailingList', $mailingList);
-
-        $mailingListVerticals = getMailingList();
-        $this->_f3->set('mailingListVerticals', $mailingListVerticals);
-
-        $view = new Template();
-        echo $view->render('views/jobOpenings.html');
-
-
     }
+    /**
+     * Summary Page
+     *
+     * Renders the summary page.
+     */
 
     function summary()
     {
         $view = new Template();
         echo $view->render('views/summary.html');
+
+
+        echo "<pre>";
+        var_dump($_SESSION['applicant']);
+        echo "</pre>";
     }
 }

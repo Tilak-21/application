@@ -5,15 +5,13 @@ session_start();
 //    file description: This is the controller file
 
 
-//This is my CONTROLLER!
-
-
 // Error Reporting
 ini_set('display_errors',1);
 error_reporting(E_ALL);
 
 // Require the Autoload File
 require_once ('vendor/autoload.php');
+require_once ('controllers/controller.php');
 
 
 
