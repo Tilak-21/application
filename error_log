@@ -773,3 +773,18 @@
 [06-May-2024 06:00:53 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.2t2roc0iljcwc.php:35] Base->{closure}()
 [06-May-2024 06:00:53 UTC] [GreenRiverDev/328/application/index.php:208] Preview->render()
 [06-May-2024 06:00:53 UTC] [GreenRiverDev/328/application/index.php:222] Base->run()
+[06-May-2024 07:37:36 UTC] Undefined array key "language"
+[06-May-2024 07:37:36 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:84] 
+[06-May-2024 07:37:36 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:84] Base->{closure}()
+[06-May-2024 07:37:36 UTC] [GreenRiverDev/328/application/index.php:216] Preview->render()
+[06-May-2024 07:37:36 UTC] [GreenRiverDev/328/application/index.php:222] Base->run()
+[06-May-2024 07:37:42 UTC] Undefined array key "language"
+[06-May-2024 07:37:42 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:84] 
+[06-May-2024 07:37:42 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:84] Base->{closure}()
+[06-May-2024 07:37:42 UTC] [GreenRiverDev/328/application/index.php:216] Preview->render()
+[06-May-2024 07:37:42 UTC] [GreenRiverDev/328/application/index.php:222] Base->run()
+[06-May-2024 21:55:49 UTC] Undefined array key "language"
+[06-May-2024 21:55:49 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:84] 
+[06-May-2024 21:55:49 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:84] Base->{closure}()
+[06-May-2024 21:55:49 UTC] [GreenRiverDev/328/application/index.php:216] Preview->render()
+[06-May-2024 21:55:49 UTC] [GreenRiverDev/328/application/index.php:222] Base->run()

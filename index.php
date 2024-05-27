@@ -14,8 +14,7 @@ error_reporting(E_ALL);
 
 // Require the Autoload File
 require_once ('vendor/autoload.php');
-require_once ('model/data-layer.php');
-require_once ('model/validate.php');
+
 
 //instantiate the F3 Base Class
 $f3 = Base::instance();
