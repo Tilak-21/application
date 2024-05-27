@@ -83,9 +83,20 @@
                                         <check if="{{ isset(@errors['state']) }}">
                                             <span class="err">{{ @errors['state'] }}</span>
                                         </check>
+
+                                        <!-- Checkbx for Mailing Lists -->
+                                        <div class="form-check mt-4">
+                                            <label class="form-check-label" for="mailingLists">
+                                                <h6 class="mb-3">Mailing List</h6>
+                                                <input class="form-check-input" type="checkbox" value="" id="mailingLists" name="mailingLists">
+                                                Sign me up for job openings mailing lists!
+                                            </label>
+                                        </div>
+
                                         <div class="mt-4">
                                             <input class="btn btn-info btn-lg" type="submit" value="Next >" />
                                         </div>
+
                                     </div>
                                 </div>
 
@@ -98,6 +109,7 @@
         </div>
     </div>
 </section>
+
 
 
 </body>

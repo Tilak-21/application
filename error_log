@@ -788,3 +788,15 @@
 [06-May-2024 21:55:49 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:84] Base->{closure}()
 [06-May-2024 21:55:49 UTC] [GreenRiverDev/328/application/index.php:216] Preview->render()
 [06-May-2024 21:55:49 UTC] [GreenRiverDev/328/application/index.php:222] Base->run()
+[27-May-2024 06:40:57 UTC] Undefined array key "mailingLists"
+[27-May-2024 06:40:57 UTC] [GreenRiverDev/328/application/index.php:52] 
+[27-May-2024 06:40:57 UTC] [GreenRiverDev/328/application/index.php:52] Base->{closure}()
+[27-May-2024 06:40:57 UTC] [GreenRiverDev/328/application/index.php:227] Base->run()
+[27-May-2024 06:41:13 UTC] Undefined array key "mailingLists"
+[27-May-2024 06:41:13 UTC] [GreenRiverDev/328/application/index.php:52] 
+[27-May-2024 06:41:13 UTC] [GreenRiverDev/328/application/index.php:52] Base->{closure}()
+[27-May-2024 06:41:13 UTC] [GreenRiverDev/328/application/index.php:227] Base->run()
+[27-May-2024 06:41:23 UTC] Call to undefined function validName() [/home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:55]
+[27-May-2024 06:41:23 UTC] [GreenRiverDev/328/application/index.php:227] Base->run()
+[27-May-2024 06:47:58 UTC] Call to undefined function validName() [/home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:55]
+[27-May-2024 06:47:58 UTC] [GreenRiverDev/328/application/index.php:227] Base->run()

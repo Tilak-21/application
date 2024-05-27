@@ -49,6 +49,7 @@ $f3->route('GET|POST /personalInfo', function($f3) {
             $emailAddress = $_POST['emailAddress'];
             $phoneNumber = $_POST['phoneNumber'];
             $state = $_POST['state'];
+            $mailingCheckbox = $_POST['mailingLists'];
 
             // Validation checks
             if (validName($firstName)) {
@@ -74,6 +75,8 @@ $f3->route('GET|POST /personalInfo', function($f3) {
             } else {
                 $f3->set('errors["phoneNumber"]', 'Please enter a valid phone number');
             }
+
+            $f3 -> set('SESSION.Mailing', $mailingCheckbox);
 
             // Add state to session array
             $f3->set('SESSION.state', $state);
@@ -141,7 +144,10 @@ $f3->route('GET|POST /experience', function($f3) {
 
 
             // Redirect to the next page
-            if (empty($f3->get('errors'))) {
+            if (empty($f3->get('errors')) && !$f3->get('SESSION.mailingLists')) {
+                $f3->reroute('/summary');
+            }
+            else if (empty($f3->get('errors'))) {
                 $f3->reroute('/openings');
             }
         }
