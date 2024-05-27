@@ -30,12 +30,36 @@ function validEmail($email) {
     return filter_var($email, FILTER_VALIDATE_EMAIL);
 }
 
-//Validates a mailing job against a predefined array.
-function validMailingJobs($mailingjob) {
-    return array_search($mailingjob, getJobs()) || $mailingjob == "";
+// Validates a mailing job against a predefined array.
+function validMailingJobs($mailingJob) {
+    $validJobs = getJobs();
+    // If it's an array, validate each element
+    if (is_array($mailingJob)) {
+        foreach ($mailingJob as $job) {
+            if (!in_array($job, $validJobs)) {
+                return false;
+            }
+        }
+        return true;
+    } else {
+        // If it's a single value, validate it directly
+        return in_array($mailingJob, $validJobs) || $mailingJob == "";
+    }
 }
 
-//Validates a mailing vertical against a predefined array which is used to fetch the mailing list for checkbox options.
-function validMailingVerticals($mailingVerticals) {
-    return array_search($mailingVerticals, getMailingList()) || $mailingVerticals == "";
+// Validates a mailing vertical against a predefined array.
+function validMailingVerticals($mailingVertical) {
+    $validVerticals = getMailingList();
+    // If it's an array, validate each element
+    if (is_array($mailingVertical)) {
+        foreach ($mailingVertical as $vertical) {
+            if (!in_array($vertical, $validVerticals)) {
+                return false;
+            }
+        }
+        return true;
+    } else {
+        // If it's a single value, validate it directly
+        return in_array($mailingVertical, $validVerticals) || $mailingVertical == "";
+    }
 }

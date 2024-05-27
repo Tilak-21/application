@@ -9,8 +9,7 @@
   "require": {
     "bcosca/fatfree-core": "dev-master"
   },
-  "autoload":
-  {
+  "autoload": {
     "classmap": ["classes/", "model/"]
   }
 }

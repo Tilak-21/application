@@ -69,17 +69,20 @@
                             </div>
 
 <!--                        Mailing list selection section -->
-                            <div class="summary-section">
-                                <h5 class="mb-3">Mailing List Selected</h5>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <strong>Software Development Jobs:</strong> {{ implode(', ', @SESSION.language) }}
-                                    </div>
-                                    <div class="col-md-6">
-                                        <strong>Industry Verticals:</strong> {{ implode(', ', @SESSION.vertical) }}
+
+                            <check if="{{ @SESSION.Mailing }}">
+                                <div class="summary-section">
+                                    <h5 class="mb-3">Mailing List Selected</h5>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <strong>Software Development Jobs:</strong> {{ implode(', ', @SESSION.language) }}
+                                        </div>
+                                        <div class="col-md-6">
+                                            <strong>Industry Verticals:</strong> {{ implode(', ', @SESSION.vertical) }}
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </check>
 
                             <div class="mt-4">
                                 <a href="#" class="btn btn-success btn-lg">Submit</a>

@@ -14,6 +14,8 @@ error_reporting(E_ALL);
 
 // Require the Autoload File
 require_once ('vendor/autoload.php');
+require_once ('model/data-layer.php');
+require_once ('model/validate.php');
 
 
 //instantiate the F3 Base Class
@@ -49,7 +51,8 @@ $f3->route('GET|POST /personalInfo', function($f3) {
             $emailAddress = $_POST['emailAddress'];
             $phoneNumber = $_POST['phoneNumber'];
             $state = $_POST['state'];
-            $mailingCheckbox = $_POST['mailingLists'];
+            $mailingCheckbox = isset($_POST['mailingLists']) ? true : false;
+
 
             // Validation checks
             if (validName($firstName)) {
@@ -106,18 +109,17 @@ $f3->route('GET|POST /experience', function($f3) {
         if (!empty($_POST['experience'])) {
 
 
-        // Assign variables from POST data
-            $biography= $_POST['biography'];
+            // Assign variables from POST data
+            $biography = $_POST['biography'];
             $githubLink = $_POST['githubLink'];
 
 
             $experience = implode(", ", $_POST['experience']);
 
-            if(empty($_POST['relocate'])) {
+            if (empty($_POST['relocate'])) {
                 $relocate = "No";
 
-            }
-            else {
+            } else {
                 $relocate = $_POST['relocate'];
             }
 
@@ -142,19 +144,14 @@ $f3->route('GET|POST /experience', function($f3) {
             $f3->set('SESSION.relocate', $relocate);
 
 
-
-            // Redirect to the next page
-            if (empty($f3->get('errors')) && !$f3->get('SESSION.mailingLists')) {
+            if (empty($f3->get('errors')) && !$f3->get('SESSION.Mailing')) {
                 $f3->reroute('/summary');
-            }
-            else if (empty($f3->get('errors'))) {
+            } else if (empty($f3->get('errors'))) {
                 $f3->reroute('/openings');
+            } else {
+                echo "<div class='text-center'>Please complete the form in its entirety</div>";
             }
         }
-        else {
-            echo "<div class='text-center'>Please complete the form in its entirety</div>";
-        }
-
     }
     //adding from DataModel
     $yearsOfExperience = getExperience();
@@ -163,46 +160,38 @@ $f3->route('GET|POST /experience', function($f3) {
     $view = new Template();
     echo $view->render('views/experience.html');
 
+
 });
 
 //openings page routing with validation
 $f3->route('GET|POST /openings', function($f3) {
-
-    if($_SERVER['REQUEST_METHOD'] == 'POST') {
-
+    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         // Add to session array
-        if(!empty($_POST['listLang']) && !empty($_POST['listVerticals'])) {
-            // Assign variables from POST data
-            $listLang = $_POST['listLang'];
-            $listVerticals = $_POST['listVerticals'];
+        $listLang = !empty($_POST['listLang']) ? $_POST['listLang'] : array();
+        $listVerticals = !empty($_POST['listVerticals']) ? $_POST['listVerticals'] : array();
 
-            // Check if the selected values are valid
-            if (validMailingJobs($listLang)) {
-                $f3->set('SESSION.language', $listLang);
-            } else {
-                $f3->set('errors["languages"]', 'Please select a valid job mailing option');
-            }
-
-            if (validMailingJobs($listVerticals)) {
-                $f3->set('SESSION.vertical', $listVerticals);
-            } else {
-                $f3->set('errors["verticals"]', 'Please select a valid vertical mailing option');
-            }
-
-        }
-        else {
-            // When no options are selected, set it as an empty array
-            $emptyVariable = array();
-            $f3->set('SESSION.language', $emptyVariable);
-            $f3->set('SESSION.vertical', $emptyVariable);
-
+        // Check if the selected values are valid
+        if (validMailingJobs($listLang)) {
+            $f3->set('SESSION.language', $listLang);
+        } else {
+            $f3->set('errors["languages"]', 'Please select a valid job mailing option');
         }
 
-        // Redirect to the next page
-        $f3->reroute("/summary");
+        if (validMailingVerticals($listVerticals)) {
+            $f3->set('SESSION.vertical', $listVerticals);
+        } else {
+            $f3->set('errors["verticals"]', 'Please select a valid vertical mailing option');
+        }
+
+        // Redirect to the next page if no errors
+        if (empty($f3->get('errors'))) {
+            $f3->reroute('/summary');
+        } else {
+            echo "<div class='text-center'>Please correct the errors in the form</div>";
+        }
     }
 
-    //Using GET response to display the page.
+    // Using GET response to display the page.
     $mailingList = getJobs();
     $f3->set('mailingList', $mailingList);
 
@@ -212,6 +201,7 @@ $f3->route('GET|POST /openings', function($f3) {
     $view = new Template();
     echo $view->render('views/jobOpenings.html');
 
+
 });
 
 //summary page routing
@@ -219,6 +209,7 @@ $f3->route('GET|POST /summary', function() {
 
     $view = new Template();
     echo $view->render('views/summary.html');
+
 
 });
 
