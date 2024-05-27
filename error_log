@@ -1006,3 +1006,62 @@
 [27-May-2024 08:19:27 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:80] Base->{closure}()
 [27-May-2024 08:19:27 UTC] [GreenRiverDev/328/application/index.php:211] Preview->render()
 [27-May-2024 08:19:27 UTC] [GreenRiverDev/328/application/index.php:218] Base->run()
+[27-May-2024 08:25:40 UTC] Call to undefined function validName() [/home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:57]
+[27-May-2024 08:25:40 UTC] [GreenRiverDev/328/application/index.php:217] Base->run()
+[27-May-2024 08:27:18 UTC] Call to undefined function validName() [/home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:57]
+[27-May-2024 08:27:18 UTC] [GreenRiverDev/328/application/index.php:217] Base->run()
+[27-May-2024 08:27:20 UTC] Call to undefined function validName() [/home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:57]
+[27-May-2024 08:27:20 UTC] [GreenRiverDev/328/application/index.php:217] Base->run()
+[27-May-2024 09:06:05 UTC] Class "controller" not found [/home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:24]
+[27-May-2024 09:06:10 UTC] Class "controller" not found [/home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:24]
+[27-May-2024 09:07:45 UTC] PHP Warning:  require_once(/home2/tchudasa/public_html/GreenRiverDev/328/application/model): Failed to open stream: Success in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 17
+[27-May-2024 09:07:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'model/' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 17
+[27-May-2024 09:07:48 UTC] PHP Warning:  require_once(/home2/tchudasa/public_html/GreenRiverDev/328/application/model): Failed to open stream: Success in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 17
+[27-May-2024 09:07:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'model/' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 17
+[27-May-2024 09:07:50 UTC] PHP Warning:  require_once(/home2/tchudasa/public_html/GreenRiverDev/328/application/model): Failed to open stream: Success in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 17
+[27-May-2024 09:07:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'model/' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 17
+[27-May-2024 09:07:51 UTC] PHP Warning:  require_once(/home2/tchudasa/public_html/GreenRiverDev/328/application/model): Failed to open stream: Success in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 17
+[27-May-2024 09:07:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'model/' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 17
+[27-May-2024 09:07:52 UTC] PHP Warning:  require_once(/home2/tchudasa/public_html/GreenRiverDev/328/application/model): Failed to open stream: Success in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 17
+[27-May-2024 09:07:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'model/' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 17
+[27-May-2024 09:07:54 UTC] PHP Warning:  require_once(/home2/tchudasa/public_html/GreenRiverDev/328/application/model): Failed to open stream: Success in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 17
+[27-May-2024 09:07:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'model/' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 17
+[27-May-2024 09:08:28 UTC] PHP Warning:  require_once(/home2/tchudasa/public_html/GreenRiverDev/328/application/model): Failed to open stream: Success in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 17
+[27-May-2024 09:08:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'model/' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 17
+[27-May-2024 09:08:34 UTC] PHP Warning:  require_once(/home2/tchudasa/public_html/GreenRiverDev/328/application/model): Failed to open stream: Success in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 17
+[27-May-2024 09:08:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'model/' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/tchudasa/public_html/GreenRiverDev/328/application/index.php on line 17
+[27-May-2024 09:09:09 UTC] Call to undefined function validName() [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:35]
+[27-May-2024 09:09:09 UTC] [GreenRiverDev/328/application/index.php:42] controller->personalInfo()
+[27-May-2024 09:09:09 UTC] [GreenRiverDev/328/application/index.php:65] Base->run()
+[27-May-2024 09:10:59 UTC] require_once(../model/data-layer.php): Failed to open stream: No such file or directory
+[27-May-2024 09:10:59 UTC] [GreenRiverDev/328/application/controllers/controller.php:2] 
+[27-May-2024 09:10:59 UTC] [GreenRiverDev/328/application/controllers/controller.php:2] Base->{closure}()
+[27-May-2024 09:10:59 UTC] [GreenRiverDev/328/application/controllers/controller.php:2] require_once()
+[27-May-2024 09:10:59 UTC] [GreenRiverDev/328/application/vendor/composer/ClassLoader.php:444] include()
+[27-May-2024 09:10:59 UTC] [GreenRiverDev/328/application/vendor/composer/ClassLoader.php:322] Composer\Autoload\includeFile()
+[27-May-2024 09:10:59 UTC] [GreenRiverDev/328/application/index.php:22] Composer\Autoload\ClassLoader->loadClass()
+[27-May-2024 09:11:14 UTC] Class "controller" not found [/home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:22]
