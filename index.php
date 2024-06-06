@@ -1,5 +1,4 @@
 <?php
-session_start();
 //    author: Tilak K Chudasama
 //    file name: index.php
 //    file description: This is the controller file
@@ -11,7 +10,7 @@ error_reporting(E_ALL);
 
 // Require the Autoload File
 require_once ('vendor/autoload.php');
-require_once ('controllers/controller.php');
+
 
 
 
@@ -52,7 +51,7 @@ $f3->route('GET|POST /openings', function($f3) {
 });
 
 //summary page routing
-$f3->route('GET|POST /summary', function() {
+$f3->route('GET|POST /summary', function($f3) {
 
     $GLOBALS['con']->summary();
 

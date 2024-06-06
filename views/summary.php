@@ -1,5 +1,10 @@
+<?php
+// Start session if not already started
+session_start();
+?>
+
 <!-- author: Tilak K Chudasama
-    file name: summary.html
+    file name: summary.php
     file description: This page shows a summary of all the user input/selected information awaiting final confirmation.
     -->
 
@@ -9,7 +14,7 @@
 <nav class="navbar navbar-expand-xl navbar-dark bg-transparent py-4">
     <div class="container-fluid">
         <!-- Brand name -->
-        <a class="navbar-brand px-3 fs-1" href="home">appTrackerHQ</a>
+        <a class="navbar-brand px-3 fs-1" href="home">AppTrackerHQ</a>
     </div>
 </nav>
 <!-- Navbar End -->
@@ -29,21 +34,21 @@
                                 <h5 class="mb-3">Personal Information</h5>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <strong>First Name:</strong> {{ @app->getFname() }}
+                                        <strong>First Name:</strong> <?php echo isset($_SESSION['applicant']) ? unserialize($_SESSION['applicant'])->getFname() : ''; ?>
                                     </div>
                                     <div class="col-md-6">
-                                        <strong>Last Name:</strong> {{ @app->getLname() }}
+                                        <strong>Last Name:</strong> <?php echo isset($_SESSION['applicant']) ? unserialize($_SESSION['applicant'])->getLname() : ''; ?>
                                     </div>
                                 </div>
                                 <div class="row mt-2">
                                     <div class="col-md-6">
-                                        <strong>Email Address:</strong> {{ @app->getEmail() }}
+                                        <strong>Email Address:</strong> <?php echo isset($_SESSION['applicant']) ? unserialize($_SESSION['applicant'])->getEmail() : ''; ?>
                                     </div>
                                     <div class="col-md-6">
-                                        <strong>Phone Number:</strong> {{ @app->getPhone() }}
+                                        <strong>Phone Number:</strong> <?php echo isset($_SESSION['applicant']) ? unserialize($_SESSION['applicant'])->getPhone() : ''; ?>
                                     </div>
                                     <div class="col-md-6">
-                                        <strong>State:</strong> {{ @app->getState()}}
+                                        <strong>State:</strong> <?php echo isset($_SESSION['applicant']) ? unserialize($_SESSION['applicant'])->getState() : ''; ?>
                                     </div>
                                 </div>
                             </div>
@@ -53,33 +58,29 @@
                                 <h5 class="mb-3">Experience</h5>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <strong>Biography:</strong> {{ @app->getBio() }}
+                                        <strong>Biography:</strong> <?php echo isset($_SESSION['applicant']) ? unserialize($_SESSION['applicant'])->getBio() : ''; ?>
                                     </div>
                                     <div class="col-md-6">
-                                        <strong>Github Link:</strong> {{ @app->getGithub() }}
+                                        <strong>Github Link:</strong> <?php echo isset($_SESSION['applicant']) ? unserialize($_SESSION['applicant'])->getGithub() : ''; ?>
                                     </div>
                                     <div class="col-md-6">
-                                        <strong>Experience:</strong> {{ @app->getExperience() }}
+                                        <strong>Experience:</strong> <?php echo isset($_SESSION['applicant']) ? unserialize($_SESSION['applicant'])->getExperience() : ''; ?>
                                     </div>
                                     <div class="col-md-6">
-                                        <strong>Willing to Relocate:</strong> {{ @app->getRelocate() }}
+                                        <strong>Willing to Relocate:</strong> <?php echo isset($_SESSION['applicant']) ? unserialize($_SESSION['applicant'])->getRelocate() : ''; ?>
                                     </div>
                                 </div>
                             </div>
 
                             <!-- Mailing list selection section -->
-                            <check if="{{ isset(@Mail) }}">
-                                <div class="summary-section">
-                                    <h5 class="mb-3">Mailing List</h5>
-                                    <div class="row">
-                                        <p class="p-2">
-                                            Software Jobs: {{ implode(', ',@app->getSelectionsVerticals()) }}
-                                          </p><br>
-                                        <p class="p-2"> Industry Verticals: {{ implode(', ', @app->getSelectionsJobs()) }}
-                                        </p>
-                                    </div>
+                            <?php if (isset($_SESSION['Mailing']) && $_SESSION['Mailing']) : ?>
+                            <div class="summary-section">
+                                <h5 class="mb-3">Mailing List Selected</h5>
+                                <div class="row">
+                                    <!-- Display mailing list selections here -->
                                 </div>
-                            </check>
+                            </div>
+                            <?php endif; ?>
 
                             <div class="mt-4">
                                 <a href="#" class="btn btn-success btn-lg">Submit</a>
@@ -92,6 +93,7 @@
         </div>
     </div>
 </section>
+
 
 </body>
 </html>

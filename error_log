@@ -225,3 +225,1250 @@
 [27-May-2024 10:27:39 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php on line 2
 [27-May-2024 10:27:39 UTC] Fatal error: session_start(): Ignoring session_start() because a session is already active
 [27-May-2024 10:27:39 UTC] [GreenRiverDev/328/application/controllers/controller.php:2] 
+[27-May-2024 10:30:34 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php on line 2
+[27-May-2024 10:30:34 UTC] Fatal error: session_start(): Ignoring session_start() because a session is already active
+[27-May-2024 10:30:34 UTC] [GreenRiverDev/328/application/controllers/controller.php:2] 
+[27-May-2024 10:30:37 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php on line 2
+[27-May-2024 10:30:37 UTC] Fatal error: session_start(): Ignoring session_start() because a session is already active
+[27-May-2024 10:30:37 UTC] [GreenRiverDev/328/application/controllers/controller.php:2] 
+[27-May-2024 10:30:39 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php on line 2
+[27-May-2024 10:30:39 UTC] Fatal error: session_start(): Ignoring session_start() because a session is already active
+[27-May-2024 10:30:39 UTC] [GreenRiverDev/328/application/controllers/controller.php:2] 
+[27-May-2024 10:30:39 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php on line 2
+[27-May-2024 10:30:40 UTC] Fatal error: session_start(): Ignoring session_start() because a session is already active
+[27-May-2024 10:30:40 UTC] [GreenRiverDev/328/application/controllers/controller.php:2] 
+[27-May-2024 10:30:40 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php on line 2
+[27-May-2024 10:30:40 UTC] Fatal error: session_start(): Ignoring session_start() because a session is already active
+[27-May-2024 10:30:40 UTC] [GreenRiverDev/328/application/controllers/controller.php:2] 
+[27-May-2024 10:30:41 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php on line 2
+[27-May-2024 10:30:41 UTC] Fatal error: session_start(): Ignoring session_start() because a session is already active
+[27-May-2024 10:30:41 UTC] [GreenRiverDev/328/application/controllers/controller.php:2] 
+[27-May-2024 10:30:48 UTC] Class "controller" not found [/home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:20]
+[27-May-2024 10:48:44 UTC] PHP Fatal error:  Cannot redeclare controller::experience() in /home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php on line 191
+[27-May-2024 10:52:41 UTC] PHP Parse error:  Unclosed '{' on line 206 in /home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php on line 207
+[27-May-2024 10:53:11 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant_SubscribedToLists" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:137]
+[27-May-2024 10:53:11 UTC] [GreenRiverDev/328/application/index.php:46] controller->experience()
+[27-May-2024 10:53:11 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[27-May-2024 10:53:34 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:137]
+[27-May-2024 10:53:34 UTC] [GreenRiverDev/328/application/index.php:46] controller->experience()
+[27-May-2024 10:53:34 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[27-May-2024 10:53:44 UTC] Class "controller" not found [/home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:20]
+[27-May-2024 20:58:35 UTC] Undefined array key "firstName"
+[27-May-2024 20:58:35 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:33] 
+[27-May-2024 20:58:35 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:33] Base->{closure}()
+[27-May-2024 20:58:35 UTC] [GreenRiverDev/328/application/controllers/controller.php:249] Preview->render()
+[27-May-2024 20:58:35 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[27-May-2024 20:58:35 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[28-May-2024 01:50:20 UTC] Cannot use object of type __PHP_Incomplete_Class as array [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:33]
+[28-May-2024 01:50:20 UTC] [GreenRiverDev/328/application/controllers/controller.php:249] Preview->render()
+[28-May-2024 01:50:20 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[28-May-2024 01:50:20 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[28-May-2024 01:52:25 UTC] Call to undefined method __PHP_Incomplete_Class::getFirstName() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:43]
+[28-May-2024 01:52:25 UTC] [GreenRiverDev/328/application/controllers/controller.php:249] Preview->render()
+[28-May-2024 01:52:25 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[28-May-2024 01:52:25 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[28-May-2024 01:52:28 UTC] Call to undefined method __PHP_Incomplete_Class::getFirstName() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:43]
+[28-May-2024 01:52:28 UTC] [GreenRiverDev/328/application/controllers/controller.php:249] Preview->render()
+[28-May-2024 01:52:28 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[28-May-2024 01:52:28 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[28-May-2024 01:52:53 UTC] Call to undefined method __PHP_Incomplete_Class::getFirstName() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:43]
+[28-May-2024 01:52:53 UTC] [GreenRiverDev/328/application/controllers/controller.php:249] Preview->render()
+[28-May-2024 01:52:53 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[28-May-2024 01:52:53 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[28-May-2024 01:54:21 UTC] Call to undefined method __PHP_Incomplete_Class::getFirstName() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:43]
+[28-May-2024 01:54:21 UTC] [GreenRiverDev/328/application/controllers/controller.php:249] Preview->render()
+[28-May-2024 01:54:21 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[28-May-2024 01:54:21 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[28-May-2024 01:54:40 UTC] Call to undefined method __PHP_Incomplete_Class::getFirstName() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:43]
+[28-May-2024 01:54:40 UTC] [GreenRiverDev/328/application/controllers/controller.php:250] Preview->render()
+[28-May-2024 01:54:40 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[28-May-2024 01:54:40 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[28-May-2024 01:54:54 UTC] Call to undefined method __PHP_Incomplete_Class::getFirstName() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:43]
+[28-May-2024 01:54:54 UTC] [GreenRiverDev/328/application/controllers/controller.php:250] Preview->render()
+[28-May-2024 01:54:54 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[28-May-2024 01:54:54 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[28-May-2024 01:59:25 UTC] Call to undefined method __PHP_Incomplete_Class::getFirstName() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:43]
+[28-May-2024 01:59:25 UTC] [GreenRiverDev/328/application/controllers/controller.php:238] Preview->render()
+[28-May-2024 01:59:25 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[28-May-2024 01:59:25 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[28-May-2024 01:59:27 UTC] Call to undefined method __PHP_Incomplete_Class::getFirstName() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:43]
+[28-May-2024 01:59:27 UTC] [GreenRiverDev/328/application/controllers/controller.php:238] Preview->render()
+[28-May-2024 01:59:27 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[28-May-2024 01:59:27 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[28-May-2024 02:00:35 UTC] require_once(path/to/Applicant.php): Failed to open stream: No such file or directory
+[28-May-2024 02:00:35 UTC] [GreenRiverDev/328/application/controllers/controller.php:102] 
+[28-May-2024 02:00:35 UTC] [GreenRiverDev/328/application/controllers/controller.php:102] Base->{closure}()
+[28-May-2024 02:00:35 UTC] [GreenRiverDev/328/application/controllers/controller.php:102] require_once()
+[28-May-2024 02:00:35 UTC] [GreenRiverDev/328/application/index.php:46] controller->experience()
+[28-May-2024 02:00:35 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[28-May-2024 02:00:40 UTC] require_once(path/to/Applicant.php): Failed to open stream: No such file or directory
+[28-May-2024 02:00:40 UTC] [GreenRiverDev/328/application/controllers/controller.php:102] 
+[28-May-2024 02:00:40 UTC] [GreenRiverDev/328/application/controllers/controller.php:102] Base->{closure}()
+[28-May-2024 02:00:40 UTC] [GreenRiverDev/328/application/controllers/controller.php:102] require_once()
+[28-May-2024 02:00:40 UTC] [GreenRiverDev/328/application/index.php:46] controller->experience()
+[28-May-2024 02:00:40 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[28-May-2024 02:01:21 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant_SubscribedToLists" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:161]
+[28-May-2024 02:01:21 UTC] [GreenRiverDev/328/application/index.php:46] controller->experience()
+[28-May-2024 02:01:21 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[28-May-2024 02:04:53 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant_SubscribedToLists" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:161]
+[28-May-2024 02:04:53 UTC] [GreenRiverDev/328/application/index.php:46] controller->experience()
+[28-May-2024 02:04:53 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[28-May-2024 02:05:40 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant_SubscribedToLists" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:159]
+[28-May-2024 02:05:40 UTC] [GreenRiverDev/328/application/index.php:46] controller->experience()
+[28-May-2024 02:05:40 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[28-May-2024 02:05:43 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant_SubscribedToLists" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:159]
+[28-May-2024 02:05:43 UTC] [GreenRiverDev/328/application/index.php:46] controller->experience()
+[28-May-2024 02:05:43 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[28-May-2024 02:06:30 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant_SubscribedToLists" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:159]
+[28-May-2024 02:06:30 UTC] [GreenRiverDev/328/application/index.php:46] controller->experience()
+[28-May-2024 02:06:30 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[28-May-2024 02:06:32 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant_SubscribedToLists" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:159]
+[28-May-2024 02:06:32 UTC] [GreenRiverDev/328/application/index.php:46] controller->experience()
+[28-May-2024 02:06:32 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[28-May-2024 02:06:35 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant_SubscribedToLists" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:159]
+[28-May-2024 02:06:35 UTC] [GreenRiverDev/328/application/index.php:46] controller->experience()
+[28-May-2024 02:06:35 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[28-May-2024 02:22:12 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant_SubscribedToLists" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:212]
+[28-May-2024 02:22:12 UTC] [GreenRiverDev/328/application/index.php:51] controller->openings()
+[28-May-2024 02:22:12 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[28-May-2024 02:23:33 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant_SubscribedToLists" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:212]
+[28-May-2024 02:23:33 UTC] [GreenRiverDev/328/application/index.php:51] controller->openings()
+[28-May-2024 02:23:33 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[28-May-2024 02:23:36 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant_SubscribedToLists" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:212]
+[28-May-2024 02:23:36 UTC] [GreenRiverDev/328/application/index.php:51] controller->openings()
+[28-May-2024 02:23:36 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[28-May-2024 02:24:22 UTC] Call to undefined method __PHP_Incomplete_Class::getFirstName() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:43]
+[28-May-2024 02:24:22 UTC] [GreenRiverDev/328/application/controllers/controller.php:246] Preview->render()
+[28-May-2024 02:24:22 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[28-May-2024 02:24:22 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[28-May-2024 02:24:37 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant_SubscribedToLists" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:212]
+[28-May-2024 02:24:37 UTC] [GreenRiverDev/328/application/index.php:51] controller->openings()
+[28-May-2024 02:24:37 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[28-May-2024 02:26:53 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant_SubscribedToLists" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:212]
+[28-May-2024 02:26:53 UTC] [GreenRiverDev/328/application/index.php:51] controller->openings()
+[28-May-2024 02:26:53 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[28-May-2024 02:26:55 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant_SubscribedToLists" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:212]
+[28-May-2024 02:26:55 UTC] [GreenRiverDev/328/application/index.php:51] controller->openings()
+[28-May-2024 02:26:55 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[30-May-2024 02:26:55 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant_SubscribedToLists" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:212]
+[30-May-2024 02:26:55 UTC] [GreenRiverDev/328/application/index.php:51] controller->openings()
+[30-May-2024 02:26:55 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[30-May-2024 02:27:07 UTC] Call to undefined method __PHP_Incomplete_Class::getFirstName() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:43]
+[30-May-2024 02:27:07 UTC] [GreenRiverDev/328/application/controllers/controller.php:246] Preview->render()
+[30-May-2024 02:27:07 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[30-May-2024 02:27:07 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[30-May-2024 02:27:55 UTC] Call to undefined method __PHP_Incomplete_Class::getFirstName() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:43]
+[30-May-2024 02:27:55 UTC] [GreenRiverDev/328/application/controllers/controller.php:246] Preview->render()
+[30-May-2024 02:27:55 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[30-May-2024 02:27:55 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[31-May-2024 18:47:13 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant_SubscribedToLists" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:212]
+[31-May-2024 18:47:13 UTC] [GreenRiverDev/328/application/index.php:51] controller->openings()
+[31-May-2024 18:47:13 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[31-May-2024 18:50:31 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant_SubscribedToLists" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:207]
+[31-May-2024 18:50:31 UTC] [GreenRiverDev/328/application/index.php:51] controller->openings()
+[31-May-2024 18:50:31 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[31-May-2024 18:50:34 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant_SubscribedToLists" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:207]
+[31-May-2024 18:50:34 UTC] [GreenRiverDev/328/application/index.php:51] controller->openings()
+[31-May-2024 18:50:34 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[31-May-2024 18:50:35 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant_SubscribedToLists" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:207]
+[31-May-2024 18:50:35 UTC] [GreenRiverDev/328/application/index.php:51] controller->openings()
+[31-May-2024 18:50:35 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[31-May-2024 18:50:57 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant_SubscribedToLists" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:207]
+[31-May-2024 18:50:57 UTC] [GreenRiverDev/328/application/index.php:51] controller->openings()
+[31-May-2024 18:50:57 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[31-May-2024 19:17:22 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant_SubscribedToLists" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:207]
+[31-May-2024 19:17:22 UTC] [GreenRiverDev/328/application/index.php:51] controller->openings()
+[31-May-2024 19:17:22 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[31-May-2024 19:20:43 UTC] PHP Parse error:  Unclosed '{' on line 206 in /home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php on line 214
+[31-May-2024 19:21:33 UTC] Call to undefined method __PHP_Incomplete_Class::getFirstName() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:43]
+[31-May-2024 19:21:33 UTC] [GreenRiverDev/328/application/controllers/controller.php:245] Preview->render()
+[31-May-2024 19:21:33 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[31-May-2024 19:21:33 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:33:41 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php on line 2
+[03-Jun-2024 03:33:41 UTC] Fatal error: session_start(): Ignoring session_start() because a session is already active
+[03-Jun-2024 03:33:41 UTC] [GreenRiverDev/328/application/controllers/controller.php:2] 
+[03-Jun-2024 03:35:04 UTC] Undefined array key "applicant"
+[03-Jun-2024 03:35:04 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:43] 
+[03-Jun-2024 03:35:04 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:43] Base->{closure}()
+[03-Jun-2024 03:35:04 UTC] [GreenRiverDev/328/application/controllers/controller.php:249] Preview->render()
+[03-Jun-2024 03:35:04 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:35:04 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:38:56 UTC] Call to a member function getFirstName() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:43]
+[03-Jun-2024 03:38:56 UTC] [GreenRiverDev/328/application/controllers/controller.php:249] Preview->render()
+[03-Jun-2024 03:38:56 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:38:56 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:38:58 UTC] Call to a member function getFirstName() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:43]
+[03-Jun-2024 03:38:58 UTC] [GreenRiverDev/328/application/controllers/controller.php:249] Preview->render()
+[03-Jun-2024 03:38:58 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:38:58 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:39:00 UTC] Call to a member function getFirstName() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:43]
+[03-Jun-2024 03:39:00 UTC] [GreenRiverDev/328/application/controllers/controller.php:249] Preview->render()
+[03-Jun-2024 03:39:00 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:39:00 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:39:02 UTC] Call to a member function getFirstName() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:43]
+[03-Jun-2024 03:39:02 UTC] [GreenRiverDev/328/application/controllers/controller.php:249] Preview->render()
+[03-Jun-2024 03:39:02 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:39:02 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:39:07 UTC] Call to a member function getFirstName() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:43]
+[03-Jun-2024 03:39:07 UTC] [GreenRiverDev/328/application/controllers/controller.php:249] Preview->render()
+[03-Jun-2024 03:39:07 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:39:07 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:39:08 UTC] Call to a member function getFirstName() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:43]
+[03-Jun-2024 03:39:08 UTC] [GreenRiverDev/328/application/controllers/controller.php:249] Preview->render()
+[03-Jun-2024 03:39:08 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:39:08 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:41:20 UTC] Cannot access offset of type string on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 03:41:20 UTC] [GreenRiverDev/328/application/controllers/controller.php:249] Preview->render()
+[03-Jun-2024 03:41:20 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:41:20 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:41:23 UTC] Cannot access offset of type string on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 03:41:23 UTC] [GreenRiverDev/328/application/controllers/controller.php:249] Preview->render()
+[03-Jun-2024 03:41:23 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:41:23 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:41:25 UTC] Cannot access offset of type string on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 03:41:25 UTC] [GreenRiverDev/328/application/controllers/controller.php:249] Preview->render()
+[03-Jun-2024 03:41:25 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:41:25 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:41:27 UTC] Cannot access offset of type string on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 03:41:27 UTC] [GreenRiverDev/328/application/controllers/controller.php:249] Preview->render()
+[03-Jun-2024 03:41:27 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:41:27 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:41:28 UTC] Cannot access offset of type string on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 03:41:28 UTC] [GreenRiverDev/328/application/controllers/controller.php:249] Preview->render()
+[03-Jun-2024 03:41:28 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:41:28 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:41:29 UTC] Cannot access offset of type string on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 03:41:29 UTC] [GreenRiverDev/328/application/controllers/controller.php:249] Preview->render()
+[03-Jun-2024 03:41:29 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:41:29 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:41:56 UTC] Cannot access offset of type string on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 03:41:56 UTC] [GreenRiverDev/328/application/controllers/controller.php:249] Preview->render()
+[03-Jun-2024 03:41:56 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:41:56 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:43:54 UTC] Cannot access offset of type string on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 03:43:54 UTC] [GreenRiverDev/328/application/controllers/controller.php:228] Preview->render()
+[03-Jun-2024 03:43:54 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:43:54 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:45:22 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 03:45:22 UTC] [GreenRiverDev/328/application/controllers/controller.php:228] Preview->render()
+[03-Jun-2024 03:45:22 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:45:22 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:45:23 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 03:45:23 UTC] [GreenRiverDev/328/application/controllers/controller.php:228] Preview->render()
+[03-Jun-2024 03:45:23 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:45:23 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:45:25 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 03:45:25 UTC] [GreenRiverDev/328/application/controllers/controller.php:228] Preview->render()
+[03-Jun-2024 03:45:25 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:45:25 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:45:26 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 03:45:26 UTC] [GreenRiverDev/328/application/controllers/controller.php:228] Preview->render()
+[03-Jun-2024 03:45:26 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:45:26 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:46:17 UTC] Class "controller" not found [/home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:20]
+[03-Jun-2024 03:46:19 UTC] Undefined variable $applicant
+[03-Jun-2024 03:46:19 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[03-Jun-2024 03:46:19 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[03-Jun-2024 03:46:19 UTC] [GreenRiverDev/328/application/controllers/controller.php:229] Preview->render()
+[03-Jun-2024 03:46:19 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:46:19 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:53:17 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 03:53:17 UTC] [GreenRiverDev/328/application/controllers/controller.php:229] Preview->render()
+[03-Jun-2024 03:53:17 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:53:17 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:53:17 UTC] HTTP 404 (GET /chrome.css.map)
+[03-Jun-2024 03:53:17 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:53:19 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 03:53:19 UTC] [GreenRiverDev/328/application/controllers/controller.php:229] Preview->render()
+[03-Jun-2024 03:53:19 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:53:19 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:53:40 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 03:53:40 UTC] [GreenRiverDev/328/application/controllers/controller.php:229] Preview->render()
+[03-Jun-2024 03:53:40 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:53:40 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:53:52 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 03:53:52 UTC] [GreenRiverDev/328/application/controllers/controller.php:229] Preview->render()
+[03-Jun-2024 03:53:52 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:53:52 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:54:09 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 03:54:09 UTC] [GreenRiverDev/328/application/controllers/controller.php:229] Preview->render()
+[03-Jun-2024 03:54:09 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:54:09 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:55:03 UTC] PHP Parse error:  Unclosed '{' on line 175 in /home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php on line 206
+[03-Jun-2024 03:55:22 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 03:55:22 UTC] [GreenRiverDev/328/application/controllers/controller.php:229] Preview->render()
+[03-Jun-2024 03:55:22 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:55:22 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:56:47 UTC] PHP Parse error:  Unclosed '(' in /home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php on line 205
+[03-Jun-2024 03:57:00 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 03:57:00 UTC] [GreenRiverDev/328/application/controllers/controller.php:233] Preview->render()
+[03-Jun-2024 03:57:00 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:57:00 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:57:27 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 03:57:27 UTC] [GreenRiverDev/328/application/controllers/controller.php:233] Preview->render()
+[03-Jun-2024 03:57:27 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:57:27 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:58:12 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 03:58:12 UTC] [GreenRiverDev/328/application/controllers/controller.php:233] Preview->render()
+[03-Jun-2024 03:58:12 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:58:12 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:58:16 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 03:58:16 UTC] [GreenRiverDev/328/application/controllers/controller.php:233] Preview->render()
+[03-Jun-2024 03:58:16 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:58:16 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:58:19 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 03:58:19 UTC] [GreenRiverDev/328/application/controllers/controller.php:233] Preview->render()
+[03-Jun-2024 03:58:19 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:58:19 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:58:20 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 03:58:20 UTC] [GreenRiverDev/328/application/controllers/controller.php:233] Preview->render()
+[03-Jun-2024 03:58:20 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:58:20 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 03:58:21 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 03:58:21 UTC] [GreenRiverDev/328/application/controllers/controller.php:233] Preview->render()
+[03-Jun-2024 03:58:21 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 03:58:21 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 04:00:01 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 04:00:01 UTC] [GreenRiverDev/328/application/controllers/controller.php:232] Preview->render()
+[03-Jun-2024 04:00:01 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 04:00:01 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 04:00:04 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 04:00:04 UTC] [GreenRiverDev/328/application/controllers/controller.php:232] Preview->render()
+[03-Jun-2024 04:00:04 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 04:00:04 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 04:00:32 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 04:00:32 UTC] [GreenRiverDev/328/application/controllers/controller.php:232] Preview->render()
+[03-Jun-2024 04:00:32 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 04:00:32 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 04:00:36 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 04:00:36 UTC] [GreenRiverDev/328/application/controllers/controller.php:232] Preview->render()
+[03-Jun-2024 04:00:36 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 04:00:36 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 04:00:50 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 04:00:50 UTC] [GreenRiverDev/328/application/controllers/controller.php:232] Preview->render()
+[03-Jun-2024 04:00:50 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 04:00:50 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 04:00:53 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 04:00:53 UTC] [GreenRiverDev/328/application/controllers/controller.php:232] Preview->render()
+[03-Jun-2024 04:00:53 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 04:00:53 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 04:00:56 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 04:00:56 UTC] [GreenRiverDev/328/application/controllers/controller.php:232] Preview->render()
+[03-Jun-2024 04:00:56 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 04:00:56 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 04:01:27 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 04:01:27 UTC] [GreenRiverDev/328/application/controllers/controller.php:232] Preview->render()
+[03-Jun-2024 04:01:27 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 04:01:27 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 04:01:30 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 04:01:30 UTC] [GreenRiverDev/328/application/controllers/controller.php:232] Preview->render()
+[03-Jun-2024 04:01:30 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 04:01:30 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 04:01:34 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 04:01:34 UTC] [GreenRiverDev/328/application/controllers/controller.php:232] Preview->render()
+[03-Jun-2024 04:01:34 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 04:01:34 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 04:01:37 UTC] Call to a member function getFname() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[03-Jun-2024 04:01:37 UTC] [GreenRiverDev/328/application/controllers/controller.php:232] Preview->render()
+[03-Jun-2024 04:01:37 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 04:01:37 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 04:01:50 UTC] Undefined array key "applicantTestTwo"
+[03-Jun-2024 04:01:50 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[03-Jun-2024 04:01:50 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[03-Jun-2024 04:01:50 UTC] [GreenRiverDev/328/application/controllers/controller.php:232] Preview->render()
+[03-Jun-2024 04:01:50 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 04:01:50 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 15:43:31 UTC] Undefined array key "applicantTestTwo"
+[03-Jun-2024 15:43:31 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[03-Jun-2024 15:43:31 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[03-Jun-2024 15:43:31 UTC] [GreenRiverDev/328/application/controllers/controller.php:232] Preview->render()
+[03-Jun-2024 15:43:31 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 15:43:31 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[03-Jun-2024 16:05:40 UTC] Undefined array key "applicantTestTwo"
+[03-Jun-2024 16:05:40 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[03-Jun-2024 16:05:40 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[03-Jun-2024 16:05:40 UTC] [GreenRiverDev/328/application/controllers/controller.php:232] Preview->render()
+[03-Jun-2024 16:05:40 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[03-Jun-2024 16:05:40 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[04-Jun-2024 20:30:07 UTC] Undefined array key "applicantTestTwo"
+[04-Jun-2024 20:30:07 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[04-Jun-2024 20:30:07 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[04-Jun-2024 20:30:07 UTC] [GreenRiverDev/328/application/controllers/controller.php:232] Preview->render()
+[04-Jun-2024 20:30:07 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[04-Jun-2024 20:30:07 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[04-Jun-2024 20:40:25 UTC] Call to a member function setSelectionsJobs() on string [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:201]
+[04-Jun-2024 20:40:25 UTC] [GreenRiverDev/328/application/index.php:51] controller->openings()
+[04-Jun-2024 20:40:25 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[04-Jun-2024 20:40:49 UTC] Undefined array key "applicantTestTwo"
+[04-Jun-2024 20:40:49 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[04-Jun-2024 20:40:49 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[04-Jun-2024 20:40:49 UTC] [GreenRiverDev/328/application/controllers/controller.php:232] Preview->render()
+[04-Jun-2024 20:40:49 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[04-Jun-2024 20:40:49 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[04-Jun-2024 20:41:00 UTC] Undefined array key "applicantTestTwo"
+[04-Jun-2024 20:41:00 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[04-Jun-2024 20:41:00 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[04-Jun-2024 20:41:00 UTC] [GreenRiverDev/328/application/controllers/controller.php:232] Preview->render()
+[04-Jun-2024 20:41:00 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[04-Jun-2024 20:41:00 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[04-Jun-2024 20:55:59 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant_SubscribedToLists" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:201]
+[04-Jun-2024 20:55:59 UTC] [GreenRiverDev/328/application/index.php:51] controller->openings()
+[04-Jun-2024 20:55:59 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 08:06:00 UTC] Call to undefined method __PHP_Incomplete_Class::getFname() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[05-Jun-2024 08:06:00 UTC] [GreenRiverDev/328/application/controllers/controller.php:234] Preview->render()
+[05-Jun-2024 08:06:00 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[05-Jun-2024 08:06:00 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 08:06:42 UTC] Call to undefined method __PHP_Incomplete_Class::getFname() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[05-Jun-2024 08:06:42 UTC] [GreenRiverDev/328/application/controllers/controller.php:234] Preview->render()
+[05-Jun-2024 08:06:42 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[05-Jun-2024 08:06:42 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 08:06:46 UTC] Undefined variable $applicant
+[05-Jun-2024 08:06:46 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 08:06:46 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 08:06:46 UTC] [GreenRiverDev/328/application/controllers/controller.php:234] Preview->render()
+[05-Jun-2024 08:06:46 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[05-Jun-2024 08:06:46 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 08:08:30 UTC] unserialize(): Argument #1 ($data) must be of type string, __PHP_Incomplete_Class given [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:237]
+[05-Jun-2024 08:08:30 UTC] [GreenRiverDev/328/application/controllers/controller.php:237] unserialize()
+[05-Jun-2024 08:08:30 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[05-Jun-2024 08:08:30 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 08:10:17 UTC] PHP Parse error:  Unclosed '{' on line 211 in /home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php on line 212
+[05-Jun-2024 08:11:02 UTC] PHP Parse error:  Unclosed '{' on line 179 in /home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php on line 211
+[05-Jun-2024 08:11:53 UTC] PHP Parse error:  Unclosed '(' in /home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php on line 214
+[05-Jun-2024 08:11:57 UTC] Undefined array key "Mailings"
+[05-Jun-2024 08:11:57 UTC] [GreenRiverDev/328/application/controllers/controller.php:120] 
+[05-Jun-2024 08:11:57 UTC] [GreenRiverDev/328/application/controllers/controller.php:120] Base->{closure}()
+[05-Jun-2024 08:11:57 UTC] [GreenRiverDev/328/application/index.php:46] controller->experience()
+[05-Jun-2024 08:11:57 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 08:13:57 UTC] PHP Parse error:  Unclosed '{' on line 178 in /home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php on line 214
+[05-Jun-2024 08:16:56 UTC] Undefined array key "applicant"
+[05-Jun-2024 08:16:56 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 08:16:56 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 08:16:56 UTC] [GreenRiverDev/328/application/controllers/controller.php:168] Preview->render()
+[05-Jun-2024 08:16:56 UTC] [GreenRiverDev/328/application/index.php:57] Controller->summary()
+[05-Jun-2024 08:16:56 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 08:16:59 UTC] Undefined array key "applicant"
+[05-Jun-2024 08:16:59 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 08:16:59 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 08:16:59 UTC] [GreenRiverDev/328/application/controllers/controller.php:168] Preview->render()
+[05-Jun-2024 08:16:59 UTC] [GreenRiverDev/328/application/index.php:57] Controller->summary()
+[05-Jun-2024 08:16:59 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 08:18:15 UTC] Call to undefined method __PHP_Incomplete_Class::getFname() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[05-Jun-2024 08:18:15 UTC] [GreenRiverDev/328/application/controllers/controller.php:222] Preview->render()
+[05-Jun-2024 08:18:15 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[05-Jun-2024 08:18:15 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 17:28:32 UTC] Invalid method setGithub
+[05-Jun-2024 17:28:32 UTC] [GreenRiverDev/328/application/index.php:46] controller->experience()
+[05-Jun-2024 17:28:32 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 17:28:47 UTC] Class "controller" not found [/home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:20]
+[05-Jun-2024 17:28:52 UTC] Call to undefined method __PHP_Incomplete_Class::getFname() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[05-Jun-2024 17:28:52 UTC] [GreenRiverDev/328/application/controllers/controller.php:222] Preview->render()
+[05-Jun-2024 17:28:52 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[05-Jun-2024 17:28:52 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 17:33:11 UTC] Call to undefined method __PHP_Incomplete_Class::getFname() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[05-Jun-2024 17:33:11 UTC] [GreenRiverDev/328/application/controllers/controller.php:222] Preview->render()
+[05-Jun-2024 17:33:11 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[05-Jun-2024 17:33:11 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 17:33:14 UTC] Call to undefined method __PHP_Incomplete_Class::getFname() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[05-Jun-2024 17:33:14 UTC] [GreenRiverDev/328/application/controllers/controller.php:222] Preview->render()
+[05-Jun-2024 17:33:14 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[05-Jun-2024 17:33:14 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 17:33:49 UTC] Call to undefined method __PHP_Incomplete_Class::getFname() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[05-Jun-2024 17:33:49 UTC] [GreenRiverDev/328/application/controllers/controller.php:222] Preview->render()
+[05-Jun-2024 17:33:49 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[05-Jun-2024 17:33:49 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 17:33:50 UTC] Call to undefined method __PHP_Incomplete_Class::getFname() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[05-Jun-2024 17:33:50 UTC] [GreenRiverDev/328/application/controllers/controller.php:222] Preview->render()
+[05-Jun-2024 17:33:50 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[05-Jun-2024 17:33:50 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 17:33:50 UTC] Call to undefined method __PHP_Incomplete_Class::getFname() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[05-Jun-2024 17:33:50 UTC] [GreenRiverDev/328/application/controllers/controller.php:222] Preview->render()
+[05-Jun-2024 17:33:50 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[05-Jun-2024 17:33:50 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 17:33:53 UTC] Call to undefined method __PHP_Incomplete_Class::getFname() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[05-Jun-2024 17:33:53 UTC] [GreenRiverDev/328/application/controllers/controller.php:222] Preview->render()
+[05-Jun-2024 17:33:53 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[05-Jun-2024 17:33:53 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 17:34:27 UTC] Call to undefined method __PHP_Incomplete_Class::getFname() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[05-Jun-2024 17:34:27 UTC] [GreenRiverDev/328/application/controllers/controller.php:222] Preview->render()
+[05-Jun-2024 17:34:27 UTC] [GreenRiverDev/328/application/index.php:57] controller->summary()
+[05-Jun-2024 17:34:27 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 18:37:42 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant_SubscribedToLists" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:147]
+[05-Jun-2024 18:37:42 UTC] [GreenRiverDev/328/application/index.php:46] controller->experience()
+[05-Jun-2024 18:37:42 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 18:37:54 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:154]
+[05-Jun-2024 18:37:54 UTC] [GreenRiverDev/328/application/index.php:46] controller->experience()
+[05-Jun-2024 18:37:54 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 19:14:22 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:154]
+[05-Jun-2024 19:14:22 UTC] [GreenRiverDev/328/application/index.php:46] controller->experience()
+[05-Jun-2024 19:14:22 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 19:26:39 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:154]
+[05-Jun-2024 19:26:39 UTC] [GreenRiverDev/328/application/index.php:46] controller->experience()
+[05-Jun-2024 19:26:39 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 19:29:31 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:154]
+[05-Jun-2024 19:29:31 UTC] [GreenRiverDev/328/application/index.php:46] controller->experience()
+[05-Jun-2024 19:29:31 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 19:29:50 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:153]
+[05-Jun-2024 19:29:50 UTC] [GreenRiverDev/328/application/index.php:46] controller->experience()
+[05-Jun-2024 19:29:50 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 19:29:53 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:153]
+[05-Jun-2024 19:29:53 UTC] [GreenRiverDev/328/application/index.php:46] controller->experience()
+[05-Jun-2024 19:29:53 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 19:30:51 UTC] The script tried to call a method on an incomplete object. Please ensure that the class definition "Applicant" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:153]
+[05-Jun-2024 19:30:51 UTC] [GreenRiverDev/328/application/index.php:46] controller->experience()
+[05-Jun-2024 19:30:51 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 19:32:46 UTC] Call to undefined function getExperience() [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:169]
+[05-Jun-2024 19:32:46 UTC] [GreenRiverDev/328/application/index.php:46] controller->experience()
+[05-Jun-2024 19:32:46 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 19:33:08 UTC] Call to undefined function validName() [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:44]
+[05-Jun-2024 19:33:08 UTC] [GreenRiverDev/328/application/index.php:40] controller->personalInfo()
+[05-Jun-2024 19:33:08 UTC] [GreenRiverDev/328/application/index.php:63] Base->run()
+[05-Jun-2024 19:37:09 UTC] Call to undefined function validName() [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:44]
+[05-Jun-2024 19:37:09 UTC] [GreenRiverDev/328/application/index.php:39] controller->personalInfo()
+[05-Jun-2024 19:37:09 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 19:37:58 UTC] Call to undefined function validName() [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:44]
+[05-Jun-2024 19:37:58 UTC] [GreenRiverDev/328/application/index.php:39] controller->personalInfo()
+[05-Jun-2024 19:37:58 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 19:38:01 UTC] Call to undefined function validName() [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:44]
+[05-Jun-2024 19:38:01 UTC] [GreenRiverDev/328/application/index.php:39] controller->personalInfo()
+[05-Jun-2024 19:38:01 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 19:40:00 UTC] Call to undefined function getExperience() [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:171]
+[05-Jun-2024 19:40:00 UTC] [GreenRiverDev/328/application/index.php:45] controller->experience()
+[05-Jun-2024 19:40:00 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 19:40:08 UTC] require_once(/home2/tchudasa/public_html/GreenRiverDev/328/application/model): Failed to open stream: Success
+[05-Jun-2024 19:40:08 UTC] [GreenRiverDev/328/application/controllers/controller.php:3] 
+[05-Jun-2024 19:40:08 UTC] [GreenRiverDev/328/application/controllers/controller.php:3] Base->{closure}()
+[05-Jun-2024 19:40:08 UTC] [GreenRiverDev/328/application/controllers/controller.php:3] require_once()
+[05-Jun-2024 19:40:08 UTC] [GreenRiverDev/328/application/vendor/composer/ClassLoader.php:444] include()
+[05-Jun-2024 19:40:08 UTC] [GreenRiverDev/328/application/vendor/composer/ClassLoader.php:322] Composer\Autoload\includeFile()
+[05-Jun-2024 19:40:08 UTC] [GreenRiverDev/328/application/index.php:19] Composer\Autoload\ClassLoader->loadClass()
+[05-Jun-2024 19:40:30 UTC] Unclosed '{' on line 183 [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:213]
+[05-Jun-2024 19:40:30 UTC] [GreenRiverDev/328/application/vendor/composer/ClassLoader.php:322] Composer\Autoload\includeFile()
+[05-Jun-2024 19:40:30 UTC] [GreenRiverDev/328/application/index.php:19] Composer\Autoload\ClassLoader->loadClass()
+[05-Jun-2024 19:40:46 UTC] require_once(model/data-layer/php): Failed to open stream: No such file or directory
+[05-Jun-2024 19:40:46 UTC] [GreenRiverDev/328/application/controllers/controller.php:3] 
+[05-Jun-2024 19:40:46 UTC] [GreenRiverDev/328/application/controllers/controller.php:3] Base->{closure}()
+[05-Jun-2024 19:40:46 UTC] [GreenRiverDev/328/application/controllers/controller.php:3] require_once()
+[05-Jun-2024 19:40:46 UTC] [GreenRiverDev/328/application/vendor/composer/ClassLoader.php:444] include()
+[05-Jun-2024 19:40:46 UTC] [GreenRiverDev/328/application/vendor/composer/ClassLoader.php:322] Composer\Autoload\includeFile()
+[05-Jun-2024 19:40:46 UTC] [GreenRiverDev/328/application/index.php:19] Composer\Autoload\ClassLoader->loadClass()
+[05-Jun-2024 19:41:01 UTC] Undefined array key "Mailing"
+[05-Jun-2024 19:41:01 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:80] 
+[05-Jun-2024 19:41:01 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:80] Base->{closure}()
+[05-Jun-2024 19:41:01 UTC] [GreenRiverDev/328/application/controllers/controller.php:230] Preview->render()
+[05-Jun-2024 19:41:01 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 19:41:01 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 19:41:23 UTC] Undefined array key "Mailing"
+[05-Jun-2024 19:41:23 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:80] 
+[05-Jun-2024 19:41:23 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:80] Base->{closure}()
+[05-Jun-2024 19:41:23 UTC] [GreenRiverDev/328/application/controllers/controller.php:230] Preview->render()
+[05-Jun-2024 19:41:23 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 19:41:23 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 19:42:08 UTC] Undefined array key "Mailing"
+[05-Jun-2024 19:42:08 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:80] 
+[05-Jun-2024 19:42:08 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:80] Base->{closure}()
+[05-Jun-2024 19:42:08 UTC] [GreenRiverDev/328/application/controllers/controller.php:232] Preview->render()
+[05-Jun-2024 19:42:08 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 19:42:08 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 19:42:26 UTC] Undefined array key "Mailing"
+[05-Jun-2024 19:42:26 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:80] 
+[05-Jun-2024 19:42:26 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:80] Base->{closure}()
+[05-Jun-2024 19:42:26 UTC] [GreenRiverDev/328/application/controllers/controller.php:232] Preview->render()
+[05-Jun-2024 19:42:26 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 19:42:26 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 19:43:22 UTC] Undefined array key "Mailing"
+[05-Jun-2024 19:43:22 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:80] 
+[05-Jun-2024 19:43:22 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:80] Base->{closure}()
+[05-Jun-2024 19:43:22 UTC] [GreenRiverDev/328/application/controllers/controller.php:232] Preview->render()
+[05-Jun-2024 19:43:22 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 19:43:22 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:03:34 UTC] Undefined array key "Mailing"
+[05-Jun-2024 20:03:34 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:80] 
+[05-Jun-2024 20:03:34 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:80] Base->{closure}()
+[05-Jun-2024 20:03:34 UTC] [GreenRiverDev/328/application/controllers/controller.php:266] Preview->render()
+[05-Jun-2024 20:03:34 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:03:34 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:10:38 UTC] Undefined array key "Mailing"
+[05-Jun-2024 20:10:38 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:80] 
+[05-Jun-2024 20:10:38 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:80] Base->{closure}()
+[05-Jun-2024 20:10:38 UTC] [GreenRiverDev/328/application/controllers/controller.php:266] Preview->render()
+[05-Jun-2024 20:10:38 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:10:38 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:12:06 UTC] Undefined array key "Mailing"
+[05-Jun-2024 20:12:06 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:80] 
+[05-Jun-2024 20:12:06 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:80] Base->{closure}()
+[05-Jun-2024 20:12:06 UTC] [GreenRiverDev/328/application/controllers/controller.php:266] Preview->render()
+[05-Jun-2024 20:12:06 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:12:06 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:12:08 UTC] Undefined array key "Mailing"
+[05-Jun-2024 20:12:08 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:80] 
+[05-Jun-2024 20:12:08 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:80] Base->{closure}()
+[05-Jun-2024 20:12:08 UTC] [GreenRiverDev/328/application/controllers/controller.php:266] Preview->render()
+[05-Jun-2024 20:12:08 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:12:08 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:13:22 UTC] Undefined array key "applicant"
+[05-Jun-2024 20:13:22 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:13:22 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:13:22 UTC] [GreenRiverDev/328/application/controllers/controller.php:266] Preview->render()
+[05-Jun-2024 20:13:22 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:13:22 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:13:24 UTC] Undefined array key "applicant"
+[05-Jun-2024 20:13:24 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:13:24 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:13:24 UTC] [GreenRiverDev/328/application/controllers/controller.php:266] Preview->render()
+[05-Jun-2024 20:13:24 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:13:24 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:13:52 UTC] Undefined array key "applicant"
+[05-Jun-2024 20:13:52 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:13:52 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:13:52 UTC] [GreenRiverDev/328/application/controllers/controller.php:266] Preview->render()
+[05-Jun-2024 20:13:52 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:13:52 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:14:30 UTC] Undefined array key "applicant"
+[05-Jun-2024 20:14:30 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:14:30 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:14:30 UTC] [GreenRiverDev/328/application/controllers/controller.php:266] Preview->render()
+[05-Jun-2024 20:14:30 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:14:30 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:14:32 UTC] Undefined array key "applicant"
+[05-Jun-2024 20:14:32 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:14:32 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:14:32 UTC] [GreenRiverDev/328/application/controllers/controller.php:266] Preview->render()
+[05-Jun-2024 20:14:32 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:14:32 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:15:00 UTC] Undefined array key "applicant"
+[05-Jun-2024 20:15:00 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:15:00 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:15:00 UTC] [GreenRiverDev/328/application/controllers/controller.php:266] Preview->render()
+[05-Jun-2024 20:15:00 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:15:00 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:15:20 UTC] Undefined array key "applicant"
+[05-Jun-2024 20:15:20 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:15:20 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:15:20 UTC] [GreenRiverDev/328/application/controllers/controller.php:266] Preview->render()
+[05-Jun-2024 20:15:20 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:15:20 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:15:23 UTC] Undefined array key "applicant"
+[05-Jun-2024 20:15:23 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:15:23 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:15:23 UTC] [GreenRiverDev/328/application/controllers/controller.php:266] Preview->render()
+[05-Jun-2024 20:15:23 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:15:23 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:15:44 UTC] Undefined array key "applicant"
+[05-Jun-2024 20:15:44 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:15:44 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:15:44 UTC] [GreenRiverDev/328/application/controllers/controller.php:266] Preview->render()
+[05-Jun-2024 20:15:44 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:15:44 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:17:08 UTC] Class "controller" not found [/home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:19]
+[05-Jun-2024 20:17:11 UTC] Undefined array key "applicants"
+[05-Jun-2024 20:17:11 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:17:11 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:17:11 UTC] [GreenRiverDev/328/application/controllers/controller.php:266] Preview->render()
+[05-Jun-2024 20:17:11 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:17:11 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:17:13 UTC] Undefined array key "applicants"
+[05-Jun-2024 20:17:13 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:17:13 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:17:13 UTC] [GreenRiverDev/328/application/controllers/controller.php:266] Preview->render()
+[05-Jun-2024 20:17:13 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:17:13 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:17:15 UTC] Undefined array key "applicants"
+[05-Jun-2024 20:17:15 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:17:15 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:17:15 UTC] [GreenRiverDev/328/application/controllers/controller.php:266] Preview->render()
+[05-Jun-2024 20:17:15 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:17:15 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:17:18 UTC] Undefined array key "applicants"
+[05-Jun-2024 20:17:18 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:17:18 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:17:18 UTC] [GreenRiverDev/328/application/controllers/controller.php:266] Preview->render()
+[05-Jun-2024 20:17:18 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:17:18 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:17:43 UTC] Undefined array key "applicants"
+[05-Jun-2024 20:17:43 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:17:43 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:17:43 UTC] [GreenRiverDev/328/application/controllers/controller.php:266] Preview->render()
+[05-Jun-2024 20:17:43 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:17:43 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:18:08 UTC] Undefined array key "applicants"
+[05-Jun-2024 20:18:08 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:18:08 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:18:08 UTC] [GreenRiverDev/328/application/controllers/controller.php:275] Preview->render()
+[05-Jun-2024 20:18:08 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:18:08 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:20:09 UTC] Undefined array key "Mailings"
+[05-Jun-2024 20:20:09 UTC] [GreenRiverDev/328/application/controllers/controller.php:204] 
+[05-Jun-2024 20:20:09 UTC] [GreenRiverDev/328/application/controllers/controller.php:204] Base->{closure}()
+[05-Jun-2024 20:20:09 UTC] [GreenRiverDev/328/application/index.php:50] controller->openings()
+[05-Jun-2024 20:20:09 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:20:47 UTC] Undefined array key "Mailings"
+[05-Jun-2024 20:20:47 UTC] [GreenRiverDev/328/application/controllers/controller.php:204] 
+[05-Jun-2024 20:20:47 UTC] [GreenRiverDev/328/application/controllers/controller.php:204] Base->{closure}()
+[05-Jun-2024 20:20:47 UTC] [GreenRiverDev/328/application/index.php:50] controller->openings()
+[05-Jun-2024 20:20:47 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:20:49 UTC] Undefined array key "Mailings"
+[05-Jun-2024 20:20:49 UTC] [GreenRiverDev/328/application/controllers/controller.php:204] 
+[05-Jun-2024 20:20:49 UTC] [GreenRiverDev/328/application/controllers/controller.php:204] Base->{closure}()
+[05-Jun-2024 20:20:49 UTC] [GreenRiverDev/328/application/index.php:50] controller->openings()
+[05-Jun-2024 20:20:49 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:20:50 UTC] Undefined array key "Mailings"
+[05-Jun-2024 20:20:50 UTC] [GreenRiverDev/328/application/controllers/controller.php:204] 
+[05-Jun-2024 20:20:50 UTC] [GreenRiverDev/328/application/controllers/controller.php:204] Base->{closure}()
+[05-Jun-2024 20:20:50 UTC] [GreenRiverDev/328/application/index.php:50] controller->openings()
+[05-Jun-2024 20:20:50 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:20:51 UTC] Undefined array key "Mailings"
+[05-Jun-2024 20:20:51 UTC] [GreenRiverDev/328/application/controllers/controller.php:204] 
+[05-Jun-2024 20:20:51 UTC] [GreenRiverDev/328/application/controllers/controller.php:204] Base->{closure}()
+[05-Jun-2024 20:20:51 UTC] [GreenRiverDev/328/application/index.php:50] controller->openings()
+[05-Jun-2024 20:20:51 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:21:45 UTC] Undefined array key "Mailings"
+[05-Jun-2024 20:21:45 UTC] [GreenRiverDev/328/application/controllers/controller.php:204] 
+[05-Jun-2024 20:21:45 UTC] [GreenRiverDev/328/application/controllers/controller.php:204] Base->{closure}()
+[05-Jun-2024 20:21:45 UTC] [GreenRiverDev/328/application/index.php:50] controller->openings()
+[05-Jun-2024 20:21:45 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:22:57 UTC] Undefined array key "applicantSubscribed"
+[05-Jun-2024 20:22:57 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:22:57 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:22:57 UTC] [GreenRiverDev/328/application/controllers/controller.php:275] Preview->render()
+[05-Jun-2024 20:22:57 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:22:57 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:22:59 UTC] Undefined array key "applicantSubscribed"
+[05-Jun-2024 20:22:59 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:22:59 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:22:59 UTC] [GreenRiverDev/328/application/controllers/controller.php:275] Preview->render()
+[05-Jun-2024 20:22:59 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:22:59 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:23:00 UTC] Undefined array key "applicantSubscribed"
+[05-Jun-2024 20:23:00 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:23:00 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:23:00 UTC] [GreenRiverDev/328/application/controllers/controller.php:275] Preview->render()
+[05-Jun-2024 20:23:00 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:23:00 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:24:17 UTC] Class "controller" not found [/home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:19]
+[05-Jun-2024 20:24:32 UTC] Undefined array key "applicantSubscribed"
+[05-Jun-2024 20:24:32 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:24:32 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:24:32 UTC] [GreenRiverDev/328/application/controllers/controller.php:275] Preview->render()
+[05-Jun-2024 20:24:32 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:24:32 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:33:18 UTC] Undefined array key "applicants"
+[05-Jun-2024 20:33:18 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:33:18 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:33:18 UTC] [GreenRiverDev/328/application/controllers/controller.php:275] Preview->render()
+[05-Jun-2024 20:33:18 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:33:18 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:34:36 UTC] Undefined array key "applicants"
+[05-Jun-2024 20:34:36 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:34:36 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:34:36 UTC] [GreenRiverDev/328/application/controllers/controller.php:275] Preview->render()
+[05-Jun-2024 20:34:36 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:34:36 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:35:09 UTC] Undefined array key "applicants"
+[05-Jun-2024 20:35:09 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:35:09 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:35:09 UTC] [GreenRiverDev/328/application/controllers/controller.php:276] Preview->render()
+[05-Jun-2024 20:35:09 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:35:09 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:35:13 UTC] Undefined array key "Mailings"
+[05-Jun-2024 20:35:13 UTC] [GreenRiverDev/328/application/controllers/controller.php:204] 
+[05-Jun-2024 20:35:13 UTC] [GreenRiverDev/328/application/controllers/controller.php:204] Base->{closure}()
+[05-Jun-2024 20:35:13 UTC] [GreenRiverDev/328/application/index.php:50] controller->openings()
+[05-Jun-2024 20:35:13 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:35:36 UTC] Undefined array key "applicants"
+[05-Jun-2024 20:35:36 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:35:36 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:35:36 UTC] [GreenRiverDev/328/application/controllers/controller.php:276] Preview->render()
+[05-Jun-2024 20:35:36 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:35:36 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:36:07 UTC] Class "controller" not found [/home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:19]
+[05-Jun-2024 20:36:10 UTC] Undefined array key "Mailings"
+[05-Jun-2024 20:36:10 UTC] [GreenRiverDev/328/application/controllers/controller.php:204] 
+[05-Jun-2024 20:36:10 UTC] [GreenRiverDev/328/application/controllers/controller.php:204] Base->{closure}()
+[05-Jun-2024 20:36:10 UTC] [GreenRiverDev/328/application/index.php:50] controller->openings()
+[05-Jun-2024 20:36:10 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:42:01 UTC] Undefined array key "Mailings"
+[05-Jun-2024 20:42:01 UTC] [GreenRiverDev/328/application/controllers/controller.php:204] 
+[05-Jun-2024 20:42:01 UTC] [GreenRiverDev/328/application/controllers/controller.php:204] Base->{closure}()
+[05-Jun-2024 20:42:01 UTC] [GreenRiverDev/328/application/index.php:50] controller->openings()
+[05-Jun-2024 20:42:01 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:43:15 UTC] Undefined array key "Mailings"
+[05-Jun-2024 20:43:15 UTC] [GreenRiverDev/328/application/controllers/controller.php:204] 
+[05-Jun-2024 20:43:15 UTC] [GreenRiverDev/328/application/controllers/controller.php:204] Base->{closure}()
+[05-Jun-2024 20:43:15 UTC] [GreenRiverDev/328/application/index.php:50] controller->openings()
+[05-Jun-2024 20:43:15 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:43:57 UTC] Undefined array key "Mailings"
+[05-Jun-2024 20:43:57 UTC] [GreenRiverDev/328/application/controllers/controller.php:266] 
+[05-Jun-2024 20:43:57 UTC] [GreenRiverDev/328/application/controllers/controller.php:266] Base->{closure}()
+[05-Jun-2024 20:43:57 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:43:57 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:45:05 UTC] Undefined array key "Mailings"
+[05-Jun-2024 20:45:05 UTC] [GreenRiverDev/328/application/controllers/controller.php:266] 
+[05-Jun-2024 20:45:05 UTC] [GreenRiverDev/328/application/controllers/controller.php:266] Base->{closure}()
+[05-Jun-2024 20:45:05 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:45:05 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:45:18 UTC] Class "controller" not found [/home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:19]
+[05-Jun-2024 20:45:54 UTC] Class "controller" not found [/home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:19]
+[05-Jun-2024 20:48:06 UTC] Undefined array key "applicants"
+[05-Jun-2024 20:48:06 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:48:06 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:48:06 UTC] [GreenRiverDev/328/application/controllers/controller.php:275] Preview->render()
+[05-Jun-2024 20:48:06 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:48:06 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:48:08 UTC] Undefined array key "applicants"
+[05-Jun-2024 20:48:08 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:48:08 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:48:08 UTC] [GreenRiverDev/328/application/controllers/controller.php:275] Preview->render()
+[05-Jun-2024 20:48:08 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:48:08 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:48:28 UTC] Undefined array key "applicants"
+[05-Jun-2024 20:48:28 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:48:28 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:48:28 UTC] [GreenRiverDev/328/application/controllers/controller.php:275] Preview->render()
+[05-Jun-2024 20:48:28 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:48:28 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:48:31 UTC] Undefined array key "applicants"
+[05-Jun-2024 20:48:31 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:48:31 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:48:31 UTC] [GreenRiverDev/328/application/controllers/controller.php:275] Preview->render()
+[05-Jun-2024 20:48:31 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:48:31 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:49:06 UTC] Undefined array key "applicants"
+[05-Jun-2024 20:49:06 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:49:06 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:49:06 UTC] [GreenRiverDev/328/application/controllers/controller.php:275] Preview->render()
+[05-Jun-2024 20:49:06 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:49:06 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:49:09 UTC] Undefined array key "applicants"
+[05-Jun-2024 20:49:09 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:49:09 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:49:09 UTC] [GreenRiverDev/328/application/controllers/controller.php:275] Preview->render()
+[05-Jun-2024 20:49:09 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:49:09 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:49:35 UTC] Undefined array key "applicants"
+[05-Jun-2024 20:49:35 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:49:35 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:49:35 UTC] [GreenRiverDev/328/application/controllers/controller.php:277] Preview->render()
+[05-Jun-2024 20:49:35 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:49:35 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:49:38 UTC] Undefined array key "applicants"
+[05-Jun-2024 20:49:38 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:49:38 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:49:38 UTC] [GreenRiverDev/328/application/controllers/controller.php:277] Preview->render()
+[05-Jun-2024 20:49:38 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:49:38 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:49:41 UTC] Undefined array key "applicants"
+[05-Jun-2024 20:49:41 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:49:41 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:49:41 UTC] [GreenRiverDev/328/application/controllers/controller.php:277] Preview->render()
+[05-Jun-2024 20:49:41 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:49:41 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[05-Jun-2024 20:49:54 UTC] Undefined array key "applicants"
+[05-Jun-2024 20:49:54 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[05-Jun-2024 20:49:54 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[05-Jun-2024 20:49:54 UTC] [GreenRiverDev/328/application/controllers/controller.php:277] Preview->render()
+[05-Jun-2024 20:49:54 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[05-Jun-2024 20:49:54 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 00:56:59 UTC] Undefined array key "Mailings"
+[06-Jun-2024 00:56:59 UTC] [GreenRiverDev/328/application/controllers/controller.php:268] 
+[06-Jun-2024 00:56:59 UTC] [GreenRiverDev/328/application/controllers/controller.php:268] Base->{closure}()
+[06-Jun-2024 00:56:59 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 00:56:59 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 00:57:46 UTC] Undefined array key "applicants"
+[06-Jun-2024 00:57:46 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 00:57:46 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 00:57:46 UTC] [GreenRiverDev/328/application/controllers/controller.php:277] Preview->render()
+[06-Jun-2024 00:57:46 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 00:57:46 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:01:56 UTC] Undefined array key "applicants"
+[06-Jun-2024 01:01:56 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 01:01:56 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 01:01:56 UTC] [GreenRiverDev/328/application/controllers/controller.php:311] Preview->render()
+[06-Jun-2024 01:01:56 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:01:56 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:02:43 UTC] Undefined array key "applicants"
+[06-Jun-2024 01:02:43 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 01:02:43 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 01:02:43 UTC] [GreenRiverDev/328/application/controllers/controller.php:311] Preview->render()
+[06-Jun-2024 01:02:43 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:02:43 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:04:40 UTC] Undefined array key "applicants"
+[06-Jun-2024 01:04:40 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 01:04:40 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 01:04:40 UTC] [GreenRiverDev/328/application/controllers/controller.php:301] Preview->render()
+[06-Jun-2024 01:04:40 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:04:40 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:04:43 UTC] Undefined array key "applicants"
+[06-Jun-2024 01:04:43 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 01:04:43 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 01:04:43 UTC] [GreenRiverDev/328/application/controllers/controller.php:301] Preview->render()
+[06-Jun-2024 01:04:43 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:04:43 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:04:45 UTC] Undefined array key "applicants"
+[06-Jun-2024 01:04:45 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 01:04:45 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 01:04:45 UTC] [GreenRiverDev/328/application/controllers/controller.php:301] Preview->render()
+[06-Jun-2024 01:04:45 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:04:45 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:04:53 UTC] Undefined array key "applicants"
+[06-Jun-2024 01:04:53 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 01:04:53 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 01:04:53 UTC] [GreenRiverDev/328/application/controllers/controller.php:301] Preview->render()
+[06-Jun-2024 01:04:53 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:04:53 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:05:03 UTC] Undefined array key "applicants"
+[06-Jun-2024 01:05:03 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 01:05:03 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 01:05:03 UTC] [GreenRiverDev/328/application/controllers/controller.php:295] Preview->render()
+[06-Jun-2024 01:05:03 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:05:03 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:10:30 UTC] Undefined array key "applicants"
+[06-Jun-2024 01:10:30 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 01:10:30 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 01:10:30 UTC] [GreenRiverDev/328/application/controllers/controller.php:295] Preview->render()
+[06-Jun-2024 01:10:30 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:10:30 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:10:50 UTC] Undefined array key "applicants"
+[06-Jun-2024 01:10:50 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 01:10:50 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 01:10:50 UTC] [GreenRiverDev/328/application/controllers/controller.php:295] Preview->render()
+[06-Jun-2024 01:10:50 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:10:50 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:10:52 UTC] Undefined array key "applicants"
+[06-Jun-2024 01:10:52 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 01:10:52 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 01:10:52 UTC] [GreenRiverDev/328/application/controllers/controller.php:295] Preview->render()
+[06-Jun-2024 01:10:52 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:10:52 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:11:00 UTC] syntax error, unexpected identifier "the" [/home2/tchudasa/public_html/GreenRiverDev/328/application/controllers/controller.php:296]
+[06-Jun-2024 01:11:00 UTC] [GreenRiverDev/328/application/vendor/composer/ClassLoader.php:322] Composer\Autoload\includeFile()
+[06-Jun-2024 01:11:00 UTC] [GreenRiverDev/328/application/index.php:19] Composer\Autoload\ClassLoader->loadClass()
+[06-Jun-2024 01:11:07 UTC] Class "controller" not found [/home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:19]
+[06-Jun-2024 01:11:18 UTC] Class "controller" not found [/home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:19]
+[06-Jun-2024 01:11:19 UTC] Undefined array key "applicants"
+[06-Jun-2024 01:11:19 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 01:11:19 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 01:11:19 UTC] [GreenRiverDev/328/application/controllers/controller.php:295] Preview->render()
+[06-Jun-2024 01:11:19 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:11:19 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:11:22 UTC] Undefined array key "applicants"
+[06-Jun-2024 01:11:22 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 01:11:22 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 01:11:22 UTC] [GreenRiverDev/328/application/controllers/controller.php:295] Preview->render()
+[06-Jun-2024 01:11:22 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:11:22 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:11:25 UTC] Undefined array key "applicants"
+[06-Jun-2024 01:11:25 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 01:11:25 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 01:11:25 UTC] [GreenRiverDev/328/application/controllers/controller.php:295] Preview->render()
+[06-Jun-2024 01:11:25 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:11:25 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:11:28 UTC] Undefined array key "applicants"
+[06-Jun-2024 01:11:28 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 01:11:28 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 01:11:28 UTC] [GreenRiverDev/328/application/controllers/controller.php:295] Preview->render()
+[06-Jun-2024 01:11:28 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:11:28 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:11:41 UTC] Undefined array key "applicants"
+[06-Jun-2024 01:11:41 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 01:11:41 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 01:11:41 UTC] [GreenRiverDev/328/application/controllers/controller.php:295] Preview->render()
+[06-Jun-2024 01:11:41 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:11:41 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:12:29 UTC] Class "controller" not found [/home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:19]
+[06-Jun-2024 01:13:17 UTC] Undefined array key "applicantSubscribed"
+[06-Jun-2024 01:13:17 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 01:13:17 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 01:13:17 UTC] [GreenRiverDev/328/application/controllers/controller.php:295] Preview->render()
+[06-Jun-2024 01:13:17 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:13:17 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:17:42 UTC] Undefined array key "app"
+[06-Jun-2024 01:17:42 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 01:17:42 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 01:17:42 UTC] [GreenRiverDev/328/application/controllers/controller.php:295] Preview->render()
+[06-Jun-2024 01:17:42 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:17:42 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:18:00 UTC] Undefined array key "app"
+[06-Jun-2024 01:18:00 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 01:18:00 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 01:18:00 UTC] [GreenRiverDev/328/application/controllers/controller.php:295] Preview->render()
+[06-Jun-2024 01:18:00 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:18:00 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:18:02 UTC] Undefined array key "app"
+[06-Jun-2024 01:18:02 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 01:18:02 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 01:18:02 UTC] [GreenRiverDev/328/application/controllers/controller.php:295] Preview->render()
+[06-Jun-2024 01:18:02 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:18:02 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:18:04 UTC] Undefined array key "app"
+[06-Jun-2024 01:18:04 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 01:18:04 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 01:18:04 UTC] [GreenRiverDev/328/application/controllers/controller.php:295] Preview->render()
+[06-Jun-2024 01:18:04 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:18:04 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:18:07 UTC] Undefined array key "app"
+[06-Jun-2024 01:18:07 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 01:18:07 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 01:18:07 UTC] [GreenRiverDev/328/application/controllers/controller.php:295] Preview->render()
+[06-Jun-2024 01:18:07 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:18:07 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:18:55 UTC] Call to a member function getFname() on null [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[06-Jun-2024 01:18:55 UTC] [GreenRiverDev/328/application/controllers/controller.php:295] Preview->render()
+[06-Jun-2024 01:18:55 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:18:55 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:18:57 UTC] Call to a member function getFname() on null [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[06-Jun-2024 01:18:57 UTC] [GreenRiverDev/328/application/controllers/controller.php:295] Preview->render()
+[06-Jun-2024 01:18:57 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:18:57 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:19:24 UTC] Call to a member function getFname() on null [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[06-Jun-2024 01:19:24 UTC] [GreenRiverDev/328/application/controllers/controller.php:295] Preview->render()
+[06-Jun-2024 01:19:24 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:19:24 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:19:35 UTC] Call to a member function getFname() on null [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[06-Jun-2024 01:19:35 UTC] [GreenRiverDev/328/application/controllers/controller.php:295] Preview->render()
+[06-Jun-2024 01:19:35 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:19:35 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 01:19:36 UTC] Call to a member function getFname() on null [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[06-Jun-2024 01:19:36 UTC] [GreenRiverDev/328/application/controllers/controller.php:295] Preview->render()
+[06-Jun-2024 01:19:36 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 01:19:36 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:04:58 UTC] Call to a member function getFname() on null [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[06-Jun-2024 02:04:58 UTC] [GreenRiverDev/328/application/controllers/controller.php:278] Preview->render()
+[06-Jun-2024 02:04:58 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:04:58 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:06:55 UTC] Class "controller" not found [/home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:19]
+[06-Jun-2024 02:06:57 UTC] Undefined variable $applicants
+[06-Jun-2024 02:06:57 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 02:06:57 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 02:06:57 UTC] [GreenRiverDev/328/application/controllers/controller.php:278] Preview->render()
+[06-Jun-2024 02:06:57 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:06:57 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:07:19 UTC] Undefined array key "applicants"
+[06-Jun-2024 02:07:19 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 02:07:19 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 02:07:19 UTC] [GreenRiverDev/328/application/controllers/controller.php:278] Preview->render()
+[06-Jun-2024 02:07:19 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:07:19 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:07:22 UTC] Undefined array key "applicants"
+[06-Jun-2024 02:07:22 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 02:07:22 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 02:07:22 UTC] [GreenRiverDev/328/application/controllers/controller.php:278] Preview->render()
+[06-Jun-2024 02:07:22 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:07:22 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:07:25 UTC] Undefined array key "applicants"
+[06-Jun-2024 02:07:25 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 02:07:25 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 02:07:25 UTC] [GreenRiverDev/328/application/controllers/controller.php:278] Preview->render()
+[06-Jun-2024 02:07:25 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:07:25 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:07:33 UTC] Undefined array key "applicants"
+[06-Jun-2024 02:07:33 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] 
+[06-Jun-2024 02:07:33 UTC] [GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32] Base->{closure}()
+[06-Jun-2024 02:07:33 UTC] [GreenRiverDev/328/application/controllers/controller.php:278] Preview->render()
+[06-Jun-2024 02:07:33 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:07:33 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:09:08 UTC] Call to a member function getFname() on null [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[06-Jun-2024 02:09:08 UTC] [GreenRiverDev/328/application/controllers/controller.php:278] Preview->render()
+[06-Jun-2024 02:09:08 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:09:08 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:09:12 UTC] Call to a member function getFname() on null [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[06-Jun-2024 02:09:12 UTC] [GreenRiverDev/328/application/controllers/controller.php:278] Preview->render()
+[06-Jun-2024 02:09:12 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:09:12 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:09:36 UTC] Call to a member function getFname() on null [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[06-Jun-2024 02:09:36 UTC] [GreenRiverDev/328/application/controllers/controller.php:278] Preview->render()
+[06-Jun-2024 02:09:36 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:09:36 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:09:50 UTC] Call to a member function getFname() on null [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[06-Jun-2024 02:09:50 UTC] [GreenRiverDev/328/application/controllers/controller.php:278] Preview->render()
+[06-Jun-2024 02:09:50 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:09:50 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:13:29 UTC] Call to a member function getFname() on null [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[06-Jun-2024 02:13:29 UTC] [GreenRiverDev/328/application/controllers/controller.php:277] Preview->render()
+[06-Jun-2024 02:13:29 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:13:29 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:13:33 UTC] Call to a member function getFname() on null [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[06-Jun-2024 02:13:33 UTC] [GreenRiverDev/328/application/controllers/controller.php:277] Preview->render()
+[06-Jun-2024 02:13:33 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:13:33 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:14:00 UTC] Call to a member function getFname() on null [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:32]
+[06-Jun-2024 02:14:00 UTC] [GreenRiverDev/328/application/controllers/controller.php:277] Preview->render()
+[06-Jun-2024 02:14:00 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:14:00 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:14:37 UTC] Undefined array key "Mailings"
+[06-Jun-2024 02:14:37 UTC] [GreenRiverDev/328/application/controllers/controller.php:212] 
+[06-Jun-2024 02:14:37 UTC] [GreenRiverDev/328/application/controllers/controller.php:212] Base->{closure}()
+[06-Jun-2024 02:14:37 UTC] [GreenRiverDev/328/application/index.php:50] controller->openings()
+[06-Jun-2024 02:14:37 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:17:43 UTC] Undefined array key "Mailings"
+[06-Jun-2024 02:17:43 UTC] [GreenRiverDev/328/application/controllers/controller.php:274] 
+[06-Jun-2024 02:17:43 UTC] [GreenRiverDev/328/application/controllers/controller.php:274] Base->{closure}()
+[06-Jun-2024 02:17:43 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:17:43 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:17:45 UTC] Undefined array key "Mailings"
+[06-Jun-2024 02:17:45 UTC] [GreenRiverDev/328/application/controllers/controller.php:274] 
+[06-Jun-2024 02:17:45 UTC] [GreenRiverDev/328/application/controllers/controller.php:274] Base->{closure}()
+[06-Jun-2024 02:17:45 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:17:45 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:18:40 UTC] Class "controller" not found [/home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:19]
+[06-Jun-2024 02:18:54 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:18:54 UTC] [GreenRiverDev/328/application/controllers/controller.php:281] Preview->render()
+[06-Jun-2024 02:18:54 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:18:54 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:19:01 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:19:01 UTC] [GreenRiverDev/328/application/controllers/controller.php:281] Preview->render()
+[06-Jun-2024 02:19:01 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:19:01 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:19:04 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:19:04 UTC] [GreenRiverDev/328/application/controllers/controller.php:281] Preview->render()
+[06-Jun-2024 02:19:04 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:19:04 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:19:49 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:19:49 UTC] [GreenRiverDev/328/application/controllers/controller.php:281] Preview->render()
+[06-Jun-2024 02:19:49 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:19:49 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:19:50 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:19:50 UTC] [GreenRiverDev/328/application/controllers/controller.php:281] Preview->render()
+[06-Jun-2024 02:19:50 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:19:50 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:19:54 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:19:54 UTC] [GreenRiverDev/328/application/controllers/controller.php:281] Preview->render()
+[06-Jun-2024 02:19:54 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:19:54 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:19:56 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:19:56 UTC] [GreenRiverDev/328/application/controllers/controller.php:281] Preview->render()
+[06-Jun-2024 02:19:56 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:19:56 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:19:59 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:19:59 UTC] [GreenRiverDev/328/application/controllers/controller.php:281] Preview->render()
+[06-Jun-2024 02:19:59 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:19:59 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:21:15 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:21:15 UTC] [GreenRiverDev/328/application/controllers/controller.php:281] Preview->render()
+[06-Jun-2024 02:21:15 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:21:15 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:21:19 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:21:19 UTC] [GreenRiverDev/328/application/controllers/controller.php:281] Preview->render()
+[06-Jun-2024 02:21:19 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:21:19 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:21:20 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:21:20 UTC] [GreenRiverDev/328/application/controllers/controller.php:281] Preview->render()
+[06-Jun-2024 02:21:20 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:21:20 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:21:22 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:21:22 UTC] [GreenRiverDev/328/application/controllers/controller.php:281] Preview->render()
+[06-Jun-2024 02:21:22 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:21:22 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:21:49 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:21:49 UTC] [GreenRiverDev/328/application/controllers/controller.php:281] Preview->render()
+[06-Jun-2024 02:21:49 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:21:49 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:21:52 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:21:52 UTC] [GreenRiverDev/328/application/controllers/controller.php:281] Preview->render()
+[06-Jun-2024 02:21:52 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:21:52 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:23:02 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:23:02 UTC] [GreenRiverDev/328/application/controllers/controller.php:279] Preview->render()
+[06-Jun-2024 02:23:02 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:23:02 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:23:04 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:23:04 UTC] [GreenRiverDev/328/application/controllers/controller.php:279] Preview->render()
+[06-Jun-2024 02:23:04 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:23:04 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:23:07 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:23:07 UTC] [GreenRiverDev/328/application/controllers/controller.php:279] Preview->render()
+[06-Jun-2024 02:23:07 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:23:07 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:23:09 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:23:09 UTC] [GreenRiverDev/328/application/controllers/controller.php:279] Preview->render()
+[06-Jun-2024 02:23:09 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:23:09 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:23:57 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:23:57 UTC] [GreenRiverDev/328/application/controllers/controller.php:279] Preview->render()
+[06-Jun-2024 02:23:57 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:23:57 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:24:09 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:24:09 UTC] [GreenRiverDev/328/application/controllers/controller.php:279] Preview->render()
+[06-Jun-2024 02:24:09 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:24:09 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:24:12 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:24:12 UTC] [GreenRiverDev/328/application/controllers/controller.php:279] Preview->render()
+[06-Jun-2024 02:24:12 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:24:12 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:25:26 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:25:26 UTC] [GreenRiverDev/328/application/controllers/controller.php:279] Preview->render()
+[06-Jun-2024 02:25:26 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:25:26 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:38:59 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:38:59 UTC] [GreenRiverDev/328/application/controllers/controller.php:279] Preview->render()
+[06-Jun-2024 02:38:59 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:38:59 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:39:24 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:39:24 UTC] [GreenRiverDev/328/application/controllers/controller.php:279] Preview->render()
+[06-Jun-2024 02:39:24 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:39:24 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:40:18 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:40:18 UTC] [GreenRiverDev/328/application/controllers/controller.php:279] Preview->render()
+[06-Jun-2024 02:40:18 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:40:18 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:40:25 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:40:25 UTC] [GreenRiverDev/328/application/controllers/controller.php:279] Preview->render()
+[06-Jun-2024 02:40:25 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:40:25 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:40:30 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:40:30 UTC] [GreenRiverDev/328/application/controllers/controller.php:279] Preview->render()
+[06-Jun-2024 02:40:30 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:40:30 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:40:33 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:40:33 UTC] [GreenRiverDev/328/application/controllers/controller.php:279] Preview->render()
+[06-Jun-2024 02:40:33 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:40:33 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:42:20 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:42:20 UTC] [GreenRiverDev/328/application/controllers/controller.php:279] Preview->render()
+[06-Jun-2024 02:42:20 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:42:20 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:42:22 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:42:22 UTC] [GreenRiverDev/328/application/controllers/controller.php:279] Preview->render()
+[06-Jun-2024 02:42:22 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:42:22 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:42:25 UTC] Call to undefined method Applicant::getSelectionsVerticals() [/home2/tchudasa/public_html/GreenRiverDev/328/application/tmp/2famtqwtar6sg.jrv7wicishxo.php:85]
+[06-Jun-2024 02:42:25 UTC] [GreenRiverDev/328/application/controllers/controller.php:279] Preview->render()
+[06-Jun-2024 02:42:25 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:42:25 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:43:10 UTC] Undefined array key "Mailings"
+[06-Jun-2024 02:43:10 UTC] [GreenRiverDev/328/application/controllers/controller.php:273] 
+[06-Jun-2024 02:43:10 UTC] [GreenRiverDev/328/application/controllers/controller.php:273] Base->{closure}()
+[06-Jun-2024 02:43:10 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:43:10 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:43:13 UTC] Undefined array key "Mailings"
+[06-Jun-2024 02:43:13 UTC] [GreenRiverDev/328/application/controllers/controller.php:273] 
+[06-Jun-2024 02:43:13 UTC] [GreenRiverDev/328/application/controllers/controller.php:273] Base->{closure}()
+[06-Jun-2024 02:43:13 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:43:13 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:43:25 UTC] Undefined array key "Mailings"
+[06-Jun-2024 02:43:25 UTC] [GreenRiverDev/328/application/controllers/controller.php:273] 
+[06-Jun-2024 02:43:25 UTC] [GreenRiverDev/328/application/controllers/controller.php:273] Base->{closure}()
+[06-Jun-2024 02:43:25 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:43:25 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:43:37 UTC] Class "controller" not found [/home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:19]
+[06-Jun-2024 02:43:39 UTC] Undefined array key "Mailings"
+[06-Jun-2024 02:43:39 UTC] [GreenRiverDev/328/application/controllers/controller.php:274] 
+[06-Jun-2024 02:43:39 UTC] [GreenRiverDev/328/application/controllers/controller.php:274] Base->{closure}()
+[06-Jun-2024 02:43:39 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:43:39 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:43:41 UTC] Undefined array key "Mailings"
+[06-Jun-2024 02:43:41 UTC] [GreenRiverDev/328/application/controllers/controller.php:274] 
+[06-Jun-2024 02:43:41 UTC] [GreenRiverDev/328/application/controllers/controller.php:274] Base->{closure}()
+[06-Jun-2024 02:43:41 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:43:41 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:44:15 UTC] Class "controller" not found [/home2/tchudasa/public_html/GreenRiverDev/328/application/index.php:19]
+[06-Jun-2024 02:44:19 UTC] Undefined array key "Mailings"
+[06-Jun-2024 02:44:19 UTC] [GreenRiverDev/328/application/controllers/controller.php:274] 
+[06-Jun-2024 02:44:19 UTC] [GreenRiverDev/328/application/controllers/controller.php:274] Base->{closure}()
+[06-Jun-2024 02:44:19 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:44:19 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()
+[06-Jun-2024 02:44:41 UTC] Undefined array key "Mailings"
+[06-Jun-2024 02:44:41 UTC] [GreenRiverDev/328/application/controllers/controller.php:274] 
+[06-Jun-2024 02:44:41 UTC] [GreenRiverDev/328/application/controllers/controller.php:274] Base->{closure}()
+[06-Jun-2024 02:44:41 UTC] [GreenRiverDev/328/application/index.php:56] controller->summary()
+[06-Jun-2024 02:44:41 UTC] [GreenRiverDev/328/application/index.php:62] Base->run()

@@ -1,4 +1,6 @@
 <?php
+
+require_once ('classes/Applicant.php');
 /**
  * Class Applicant_SubscribedToLists
  *

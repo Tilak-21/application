@@ -1,51 +1,42 @@
 <?php
 
-require_once ('model/data-layer.php');
-require_once ('model/validate.php');
-require_once ('classes/Applicant.php');
-require_once ('classes/Applicant_SubscribedToLists.php');
+require_once ("model/data-layer.php");
+require_once ("model/validate.php");
+require_once ("classes/Applicant.php");
+require_once ("classes/Applicant_SubscribedToLists.php");
 
-/**
- * Controller Class
- *
- * This class handles the control flow of the application.
- */
 class controller
 {
-    /** @var object The instance of the Fat-Free Framework */
     private $_f3;
 
     /**
      * Controller constructor.
      *
-     * @param object $f3 The instance of the Fat-Free Framework
+     * @param $f3
      */
     function __construct($f3)
     {
         $this->_f3 = $f3;
+        session_start();
     }
+
     /**
-     * Home Page
-     *
-     * Renders the home page.
+     * Displays the home page.
      */
     function home()
     {
         $view = new Template();
         echo $view->render('views/home.html');
     }
+
     /**
-     * Personal Information Page
-     *
-     * Handles the personal information form submission.
+     * Handles personal information submission.
      */
     function personalInfo()
     {
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-
             // Check if any field is empty
             if (!empty($_POST['firstName']) && !empty($_POST['phoneNumber']) && !empty($_POST['lastName']) && !empty($_POST['emailAddress'])) {
-
                 // Assign variables from POST data
                 $firstName = $_POST['firstName'];
                 $lastName = $_POST['lastName'];
@@ -53,7 +44,6 @@ class controller
                 $phoneNumber = $_POST['phoneNumber'];
                 $state = $_POST['state'];
                 $mailingCheckbox = isset($_POST['mailingLists']) ? true : false;
-
 
                 // Validation checks
                 if (validName($firstName)) {
@@ -80,19 +70,32 @@ class controller
                     $this->_f3->set('errors["phoneNumber"]', 'Please enter a valid phone number');
                 }
 
-                if (validName($firstName) && validName($lastName) && validEmail($emailAddress) && validPhone($phoneNumber)) {
-                    if ($mailingCheckbox) {
-                        $applicant = new Applicant_SubscribedToLists($firstName, $lastName, $emailAddress, $state, $phoneNumber);
-                    } else {
-                        $applicant = new Applicant($firstName, $lastName, $emailAddress, $state, $phoneNumber);
-                    }
-                    $this->_f3->set('SESSION.applicant', $applicant);
+                $this->_f3->set('SESSION.Mailings', $mailingCheckbox);
+
+                if ($mailingCheckbox) {
+                    $applicantSub = new Applicant_SubscribedToLists(
+                        $this->_f3->get('SESSION.firstName'),
+                        $this->_f3->get('SESSION.lastName'),
+                        $this->_f3->get('SESSION.emailAddress'),
+                        $this->_f3->get('SESSION.state'),
+                        $this->_f3->get('SESSION.phoneNumber')
+                    );
+                    $this->_f3->set('SESSION.applicantSubscribed', $applicantSub);
                 }
+                else {
+                        $applicant = new Applicant(
+                            $this->_f3->get('SESSION.firstName'),
+                            $this->_f3->get('SESSION.lastName'),
+                            $this->_f3->get('SESSION.emailAddress'),
+                            $this->_f3->get('SESSION.state'),
+                            $this->_f3->get('SESSION.phoneNumber')
+                        );
+                    $this->_f3->set('SESSION.applicant', $applicant);
 
-                $this->_f3->set('SESSION.Mailing', $mailingCheckbox);
+                    }
 
-                // Add state to session array
-                $this->_f3->set('SESSION.state', $state);
+
+
 
                 // Redirect to the next page if no errors
                 if (empty($this->_f3->get('errors'))) {
@@ -106,42 +109,27 @@ class controller
         $view = new Template();
         echo $view->render('views/personalInfo.html');
     }
+
     /**
-     * Experience Page
-     *
-     * Handles the experience form submission.
+     * Handles experience information submission.
      */
     function experience()
     {
-
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-
             // Check if any field is empty
             if (!empty($_POST['experience'])) {
-
-
                 // Assign variables from POST data
                 $biography = $_POST['biography'];
                 $githubLink = $_POST['githubLink'];
-
-
                 $experience = implode(", ", $_POST['experience']);
-
-                if (empty($_POST['relocate'])) {
-                    $relocate = "No";
-
-                } else {
-                    $relocate = $_POST['relocate'];
-                }
+                $relocate = !empty($_POST['relocate']) ? $_POST['relocate'] : "No";
 
                 // Add to session array
-
                 if (validExperience($experience)) {
                     $this->_f3->set('SESSION.experience', $experience);
                 } else {
                     $this->_f3->set('errors["experience"]', 'Please select a valid option.');
                 }
-
 
                 if (validGithub($githubLink)) {
                     $this->_f3->set('SESSION.githubLink', $githubLink);
@@ -149,51 +137,57 @@ class controller
                     $this->_f3->set('errors["githubLink"]', 'Please enter a valid GitHub URL');
                 }
 
-                $this->_f3->set('SESSION.biography', $biography);
 
 
-                $this->_f3->set('SESSION.relocate', $relocate);
+                // Check if the applicant is subscribed to mailing lists
+                $mailingCheckbox = $_SESSION['Mailings'];
 
 
-                $applicant = new Applicant(
-                    $this->_f3->get('SESSION.firstName'),
-                    $this->_f3->get('SESSION.lastName'),
-                    $this->_f3->get('SESSION.emailAddress'),
-                    $this->_f3->get('SESSION.state'),
-                    $this->_f3->get('SESSION.phoneNumber')
-                );
-
-                // Set experience-related fields using setter methods
-                $applicant->setGithub($githubLink);
-                $applicant->setExperience($experience);
-                $applicant->setBio($biography);
-                $applicant->setRelocate($relocate);
-
-                // Set the updated Applicant object in the session
-                $this->_f3->set('SESSION.applicant', $applicant);
 
 
-                if (empty($this->_f3->get('errors')) && !$this->_f3->get('SESSION.Mailing')) {
-                    $this->_f3->reroute('/summary');
-                } else if (empty($this->_f3->get('errors'))) {
+
+
+
+                if ($mailingCheckbox) {
+                    $this->_f3->get('SESSION.applicantSubscribed')->setGithub($githubLink);
+                    $this->_f3->get('SESSION.applicantSubscribed')->setExperience($experience);
+                    $this->_f3->get('SESSION.applicantSubscribed')->setBio($biography);
+                    $this->_f3->get('SESSION.applicantSubscribed')->setRelocate($relocate);
+
+
+                } else {
+
+
+                    $this->_f3->get('SESSION.applicant')->setGithub($githubLink);
+                    $this->_f3->get('SESSION.applicant')->setExperience($experience);
+                    $this->_f3->get('SESSION.applicant')->setBio($biography);
+                    $this->_f3->get('SESSION.applicant')->setRelocate($relocate);
+
+
+                }
+
+
+                // Redirect based on errors and mailing checkbox
+                if ($mailingCheckbox) {
                     $this->_f3->reroute('/openings');
+                } elseif (empty($this->_f3->get('errors'))) {
+                    $this->_f3->reroute('/summary');
                 } else {
                     echo "<div class='text-center'>Please complete the form in its entirety</div>";
                 }
             }
         }
-        //adding from DataModel
+
+        // Adding from DataModel
         $yearsOfExperience = getExperience();
         $this->_f3->set('experiences', $yearsOfExperience);
 
         $view = new Template();
         echo $view->render('views/experience.html');
-
     }
+
     /**
-     * Openings Page
-     *
-     * Handles the job openings form submission.
+     * Handles job openings information submission.
      */
     function openings()
     {
@@ -215,54 +209,89 @@ class controller
                 $this->_f3->set('errors["verticals"]', 'Please select a valid vertical mailing option');
             }
 
-            // Create an instance of Applicant_SubscribedToLists class
-            $applicant = new Applicant_SubscribedToLists(
-                $this->_f3->get('SESSION.firstName'),
-                $this->_f3->get('SESSION.lastName'),
-                $this->_f3->get('SESSION.emailAddress'),
-                $this->_f3->get('SESSION.state'),
-                $this->_f3->get('SESSION.phoneNumber')
-            );
+            $mailingCheckbox = $_SESSION['Mailings'];
 
-            // Set job openings-related fields using setter methods
-            $applicant->setSelectionsJobs($listLang);
-            $applicant->setSelectionsVerticals($listVerticals);
 
-            // Set the updated Applicant_SubscribedToLists object in the session
-            $this->_f3->set('SESSION.applicant', $applicant);
 
-            if (empty($this->_f3->get('errors'))) {
+            if($mailingCheckbox) {
+                $applicant = $this->_f3->get("SESSION.applicantSubscribed");
+
+            }
+            else {
+                $applicant = $this->_f3->get("SESSION.applicant");
+            }
+
+            $firstName = $applicant->getFname();
+            $lastName = $applicant->getLname();
+            $email = $applicant->getEmail();
+            $state = $applicant->getState();
+            $phone = $applicant->getPhone();
+            $github = $applicant->getGithub();
+            $experience = $applicant->getExperience();
+            $relocate = $applicant->getRelocate();
+            $bio = $applicant->getBio();
+
+            if($mailingCheckbox) {
+                $this->_f3->get('SESSION.applicantSubscribed') -> setSelectionsVerticals($listVerticals);
+                $this->_f3->get('SESSION.applicantSubscribed') -> setSelectionsJobs($listLang);
+                $this->_f3->get('SESSION.applicantSubscribed') -> setFname($firstName);
+                $this->_f3->get('SESSION.applicantSubscribed') -> setLname($lastName);
+                $this->_f3->get('SESSION.applicantSubscribed') -> setEmail($email);
+                $this->_f3->get('SESSION.applicantSubscribed') -> setState($state);
+                $this->_f3->get('SESSION.applicantSubscribed') -> setPhone($phone);
+                $this->_f3->get('SESSION.applicantSubscribed') -> setGithub($github);
+                $this->_f3->get('SESSION.applicantSubscribed') -> setExperience($experience);
+                $this->_f3->get('SESSION.applicantSubscribed') -> setRelocate($relocate);
+                $this->_f3->get('SESSION.applicantSubscribed') -> setBio($bio);
+
+
+
+
                 $this->_f3->reroute('/summary');
             } else {
                 echo "<div class='text-center'>Please correct the errors in the form</div>";
             }
 
-
-            // Using GET response to display the page.
-            $mailingList = getJobs();
-            $this->_f3->set('mailingList', $mailingList);
-
-            $mailingListVerticals = getMailingList();
-            $this->_f3->set('mailingListVerticals', $mailingListVerticals);
-
-            $view = new Template();
-            echo $view->render('views/jobOpenings.html');
         }
-    }
-    /**
-     * Summary Page
-     *
-     * Renders the summary page.
-     */
 
+        // Using GET response to display the page.
+        $mailingList = getJobs();
+        $this->_f3->set('mailingList', $mailingList);
+
+        $mailingListVerticals = getMailingList();
+        $this->_f3->set('mailingListVerticals', $mailingListVerticals);
+
+        $view = new Template();
+        echo $view->render('views/jobOpenings.html');
+    }
+
+    /**
+     * Summary of the entire form submitted.
+     */
     function summary()
     {
+//        var_dump($_SESSION);
+        $mailingCheckbox = $_SESSION['Mailings'];
+        $this->_f3->set('Mail', $mailingCheckbox);
+
+        $this->_f3->set('app', $mailingCheckbox ? $_SESSION['applicantSubscribed'] : $_SESSION['applicant']);
+
         $view = new Template();
         echo $view->render('views/summary.html');
 
+        // Clear the applicant session
+        unset($_SESSION['applicantSubscribed']);
+        unset($_SESSION['applicant']);
+        unset($_SESSION['Mailings']);
 
-        echo "<pre>";
-        var_dump($_SESSION['applicant']);
-        echo "</pre>";
+        // Destroy the session
+        echo session_unset(); // Unset all session variables
+        echo session_destroy(); // Destroy the session
+//        var_dump($_SESSION);
+
+        // Start a new session for future use
+        session_start();
     }
+
+
 }

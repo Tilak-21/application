@@ -29,7 +29,11 @@ function validGithub($url)
  */
 function validExperience($experiencevalue)
 {
-    return array_search($experiencevalue, getExperience());
+    // Allowed experiences
+    $allowedExperiences = array('0-2 years', '2-5 years', '5-10 years', '10+ years');
+
+    // Check if the selected experience is in the list of allowed experiences
+    return in_array($experiencevalue, $allowedExperiences);
 }
 
 /**

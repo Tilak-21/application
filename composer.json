@@ -11,6 +11,6 @@
   },
   "autoload":
   {
-    "classmap": ["classes/", "model/", "controllers/"]
+    "classmap": ["model/", "controllers/","classes/"]
   }
 }
